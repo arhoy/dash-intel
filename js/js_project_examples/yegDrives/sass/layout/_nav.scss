@@ -1,0 +1,80 @@
+    //span the main grid blocks
+    .nav{
+        grid-column: full-start/ full-end;
+        background-image: linear-gradient(
+            to right bottom, 
+            rgba($color-black, .4),
+            rgba($color-black, 0.6)),
+            url(../img/yeg.jpg)
+        ;
+        color:$color-white;
+        display:grid;
+        grid-template-columns: 
+        [full-start] minmax(6rem,1fr)
+        [center-start] repeat(12, [col-start] minmax(min-content,10rem) [col-end]) 
+        [center-end] minmax(6rem,1fr) [full-end];
+        justify-items: center;
+        align-items: center;
+        // media queries for nav
+        @media only screen and (max-width: $bp-large) {
+            
+           } //end  
+    
+        &__logo{
+            grid-column: col-start 1/col-end 4;
+            font-family: $font-display;
+            font-size: 4rem;
+       
+            // media queries
+            @media only screen and (max-width: $bp-medium) {
+                grid-column: full-start /full-end;
+                font-size: 3rem;
+                align-self: center;
+            } //end
+            @media screen and (max-width:$bp-small) {
+                grid-column: col-start 1/col-end 11; 
+            }
+       
+        
+        }
+        &__list{
+           
+            grid-column: col-start 5/full-end;
+            display: flex;
+            justify-self: space-between;
+            list-style: none;
+            text-transform: uppercase;
+            font-family: $font-primary;
+            @media only screen and (max-width: $bp-large) {
+                font-size: 1.4rem;
+            } //end
+            @media only screen and (max-width: $bp-medium) {
+                grid-column: full-start/full-end;
+            } //end
+           
+            
+        }
+
+        &__item{
+            &:hover{
+                letter-spacing: 1px;
+                transform: scale(1.05);
+            }
+        }
+        &__link{
+            padding: 1rem 2rem;
+            margin: .2rem;
+            color:$color-white;
+            text-decoration: none;
+            @media only screen and (max-width: $bp-large) {
+            padding: 1rem 1rem;
+            } //end
+            
+        }
+        &__main__link{
+            text-decoration: none;
+        }
+    
+       
+    
+    }

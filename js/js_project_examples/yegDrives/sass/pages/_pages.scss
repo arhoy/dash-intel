@@ -1,0 +1,63 @@
+.container{
+    // !! create row and column grid track for overall page layout.
+    display: grid;
+    grid-template-rows: [nav] minmax(8rem,15vh) 
+                       [lander] minmax(50rem,85vh) 
+                       [r3] minmax(min-content ,70vh) 
+                       [r4] minmax(min-content ,80vh) 
+                       [r5] minmax(min-content ,70vh) 
+                       [r6] minmax(min-content ,70vh)
+                       [r7] 20vh;
+    grid-template-columns: 
+                    [full-start] minmax(6rem,1fr)
+                    [center-start] repeat(12, [col-start] minmax(min-content,10rem) [col-end]) 
+                    [center-end] minmax(6rem,1fr) [full-end];
+
+    background-color: $color-white;
+
+    // dev purposes only
+     & > * {
+         font-size: 1.6rem;
+     }
+
+
+}
+
+.form1 ,
+.form2{
+    // !! create row and column grid track for overall page layout.
+    display: grid;
+    grid-template-rows: minmax(8rem,15vh) minmax(5rem,85vh);
+    grid-template-columns: 
+        [full-start] minmax(6rem,1fr)
+        [center-start] repeat(12, [col-start] minmax(min-content,10rem) [col-end]) 
+        [center-end] minmax(6rem,1fr) [full-end];
+
+    background-color: $color-white;
+
+    // dev purposes only
+     & > * {
+         font-size: 1.6rem;
+     }
+}
+
+.thankyou{
+    // !! create row and column grid track for overall page layout.
+    display: grid;
+   
+    grid-template-rows: minmax(8rem,15vh) minmax(50rem,70vh) minmax(8rem,15vh) ;
+    grid-template-columns: 
+        [full-start] minmax(6rem,1fr)
+        [center-start] repeat(12, [col-start] minmax(min-content,10rem) [col-end]) 
+        [center-end] minmax(6rem,1fr) [full-end];
+
+    background-color: $color-white;
+
+    // dev purposes only
+     & > * {
+         font-size: 1.6rem;
+     }
+}
+
+
+

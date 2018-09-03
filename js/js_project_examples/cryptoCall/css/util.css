@@ -1,0 +1,20 @@
+ .jc-c{
+    justify-content: center !important;
+    
+} 
+.mw-80{
+    max-width: 80% !important;
+    
+}
+.mw-60{
+    max-width: 60% !important;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.col-centered{
+    margin: 0 auto;
+    float: none;
+}

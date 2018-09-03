@@ -1,0 +1,50 @@
+.cta{
+    grid-column: full-start / full-end;
+    background-image: linear-gradient(
+                    to right bottom,
+                    $color-grey-light-1,
+                    $color-grey-light-2
+                    );
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns:  
+            [full-start] minmax(6rem,1fr)
+            [center-start] repeat(12, [col-start] minmax(min-content,10rem) [col-end]) 
+            [center-end] minmax(6rem,1fr) [full-end];
+   
+
+    &__holder{
+        background-image: 
+            linear-gradient(
+                45deg
+                ,rgba($color-white,0.8) 0%
+                ,rgba($color-white,0.8) 25%
+                ,rgba($color-white,0.6) 25%
+                ,rgba($color-white,0.6) 50%
+                ,rgba($color-white,0.4) 50%
+                ,rgba($color-white,0.4) 75%
+                ,rgba($color-white,0) 75%
+                )
+                ,url(../img/road.jpg);
+        grid-column: col-start 1/col-end 12;
+        background-size: 100%;
+        padding: 5rem 3rem;
+        margin: 5rem 0rem;
+        box-shadow: 0 1.5rem 4rem rgba($color-primary,0.6);
+        display:grid;
+        grid-template-columns:  
+        [full-start] minmax(6rem,1fr)
+        [center-start] repeat(4, [col-start] minmax(min-content,40rem) [col-end]) 
+        [center-end] minmax(6rem,1fr) [full-end];
+        grid-template-rows: repeat(3,1fr);
+        @media screen and (max-width: $bp-medium) {
+            background-size: 150%;
+            background-position: center;
+        }
+        @media screen and (max-width: $bp-medium) {
+            grid-column: full-start / full-end;
+            background-size: 250%;
+        }
+    }   
+}

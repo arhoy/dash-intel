@@ -1,0 +1,93 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+/*
+
+@import "abstracts/functions.scss";
+
+@import "abstracts/variables.scss";
+
+
+@import "base/animations.scss";
+@import "base/base.scss";
+@import "base/typography.scss";
+@import "base/utilities.scss";
+
+@import "components/buttons.scss";
+@import "components/card.scss";
+@import "components/composition.scss";
+@import "components/feature-box.scss";
+@import "components/story.scss";
+@import "components/bg-video.scss";
+@import "components/form.scss";
+@import "components/popup.scss";
+
+@import "layout/header.scss";
+@import "layout/grid.scss";
+@import "layout/footer.scss";
+@import "layout/navigation.scss";
+*/
+/*
+0 -600: PHONE
+
+600 - 900: TABLE PORTRAIT
+
+900- 1200: TABLE LANDSCAPE
+
+1200-1800: NORMAL
+
+1800+ big DESKTOP
+*/
+/* $breakpoint argument choices
+- phone
+-tab-port
+-tab-land
+-big-desktop
+
+1 em is 16 px
+em is the best unit for media queries.
+*/
+.challenge {
+  width: 100rem;
+  margin: 3rem auto;
+  background-color: lightcoral; }
+  .challenge > * {
+    background-color: green;
+    padding: 2rem;
+    font-size: 2rem;
+    grid-gap: 2rem; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/*specify dimensions for the document */
+html {
+  /*  (10/16) px for when the user wants to zoom in or zoom out of the browser.  */
+  font-size: 62.5%; }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  box-sizing: border-box; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0rem; } }

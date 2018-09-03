@@ -1,0 +1,33 @@
+    //span the whole page
+    .landing{
+        grid-column: full-start/ full-end;
+        background-image: linear-gradient(to right bottom, rgba($color-white,0.99),rgba($color-white,0.5))
+                        ,url(../img/drivingInSnow.jpg);
+        background-size: cover;
+        background-position: center;
+        object-fit:center;
+        position:relative;
+        @media screen and (max-width: $bp-small) {
+           
+        }
+
+     
+       
+        &__text{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            &--primary{
+                animation: moveInLeft 1.3s ease-in;
+            }
+            &--secondary{
+                animation: moveInRight 1.4s ease-in-out;
+            }
+            @media screen and (max-width: $bp-small) {
+                
+            }
+        }
+        
+    }

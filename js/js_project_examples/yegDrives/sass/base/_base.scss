@@ -1,0 +1,84 @@
+// COLOR VARIABLES
+$color-primary: #333d36;
+$color-primary-dark: rgb(43, 44, 40);
+
+$color-red: rgb(252, 24, 24);
+$color-green: rgb(102, 196, 78);
+$color-orange:  orange;
+
+$color-secondary: #101d2c;
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+$color-hover: #1C2937;
+
+// FONT VARIABLES
+$font-primary: 'Open Sans', sans-serif;
+$font-display: 'Fredericka the Great', cursive;
+$default-font-size: 1.6rem;
+
+//RESPONSIVE BREAK POINTS
+$bp-largest: 75em; //1200px/16
+$bp-large: 62.5em; //1000px/16
+$bp-medium: 50em; //800px;
+$bp-small: 37.5em; //600px;
+
+// TYPOGRAPHY
+.heading-2{
+    font-size: 2.8rem;
+}
+.font-lg{
+    font-size: 1.8rem;
+}
+
+//GLOBAL RESET
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; // inherit this from the HTML
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; // 1 rem is 10px;
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 57.5%;
+     }
+}
+body{
+    font-family: $font-primary;
+    color: $color-primary;
+    font-weight: 400;
+    overflow-x:hidden;
+    background-color: $color-white;
+
+   
+    
+}
+p{
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+// MAIN CONTAINER LAYOUT
+
+// MAIN NAV LAYOUT
+
+// MAIN LANDING LAYOUT
+
+// MAIN FEATURES LAYOUT
+
+// MAIN REVIEWS LAYOUT
+
+// MAIN Courses LAYOUT
+
+// MAIN CTA LAYOUT
+
+// MAIN FOOTER LAYOUT
+
+

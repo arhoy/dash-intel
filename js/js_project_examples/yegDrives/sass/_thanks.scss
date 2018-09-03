@@ -1,0 +1,41 @@
+.thanks{
+  
+    &__icon{
+        fill: $color-primary;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+    &__imgbox{
+        background-size: cover;
+        position: absolute;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+
+
+    }
+   
+    &__textbox{
+        background-size: cover;
+        position: absolute;
+        top:70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+       
+   
+    }
+    &__header{
+        color:$color-orange;
+        font-size: 3.6rem;
+        animation: moveInTop 2.3s ease-in;
+        
+        
+    }
+    &__secondary{
+        font-weight: 500;
+        font-size: 2.2rem;
+        animation: moveInBottom 1s ease-in;
+    }
+}

@@ -1,0 +1,38 @@
+.mygap{
+    padding: 10rem 0rem;
+    background-color: white;
+    color:red;
+    
+}
+.noListSytle{
+    list-style: none;
+}
+.margin-btm-sm{
+    margin-bottom: 1rem;
+}
+.margin-btm-med{
+    margin-bottom: 3rem;
+}
+.section-padding{
+    padding: 8rem 0rem;
+}
+.thickquote{
+    font-weight: 800;
+    font-size: 150%;
+}
+.transparent{
+    background-color: transparent;
+    display: inline-block;
+    border:none;
+}
+.animatedBounce{
+    &:hover{
+        animation: bounce 1s;
+    }
+}
+
+.animatedJello{
+    &:hover{
+        animation: jello 1s;
+    }
+}

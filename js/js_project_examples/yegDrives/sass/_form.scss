@@ -1,0 +1,97 @@
+.form{
+    // layout
+    grid-column: 2/-1;
+    grid-row: 1/ span 3;
+    align-self:center;
+    justify-self: center;
+    // basics
+    &--group:not(:last-child){
+        margin-bottom: 2rem;
+    }
+    &--heading{
+        font-size: 3.2rem; margin-bottom: 3rem;
+       
+    }
+    &__link{
+        text-decoration: none;
+        color: $color-grey-light-1;
+    }
+    // style input fields
+    &--input{
+        font-family: inherit;
+        padding: 1.5rem 2rem;
+        border-radius: 1rem;
+        border:none;
+        font-size: 1.6rem;
+        border-bottom: 3px solid transparent;
+        outline:none;
+        display:block;
+        color:$color-primary;
+        width: 90%;
+        &::-webkit-input-placeholder{
+            color: $color-grey-light-2
+        }
+        &:focus{
+            outline:none;
+            border-bottom: 3px solid $color-green;
+        } 
+        &:focus:invalid{
+            border-bottom: 3px solid $color-red;
+        } 
+    }
+    // style radio buttons
+    &__radio--group:not(last-child){
+        margin-bottom: 2rem;
+    }
+    &__radio--input{
+        display: none;
+    }
+    &__radio--label{
+        position: relative;
+        padding-left: 4rem;
+    }
+    &__radio--btn{
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        border: 0.5rem solid $color-primary;
+        position: absolute;
+        top: -.4rem;
+        left: 0rem;
+        font-size: 3rem;
+       
+        // the inner radio button.
+        &::after{
+            content: "";
+            display: block;
+            height: 1rem;
+            width: 1rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $color-primary;
+            opacity: 0;
+            transition: opacity 0.2s ease-in;
+        
+        }
+
+    }
+
+    &__radio--input:checked ~ &__radio--label{
+        font-weight: 700;
+        border-bottom: 3px solid $color-orange;
+        border-width: 2px;
+       
+    }
+
+    &__radio--input:checked ~ &__radio--label &__radio--btn::after{
+        opacity: 1;
+        background-color: $color-orange;
+       
+    }
+
+   
+
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Currency to Crypto -- simple website examples</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+    <link href="css/util.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+      <!--animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  </head>
+
+  <body>
+
+
+
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5 animated bounceInDown"> 
+              <span class="h1__primary">Currency</span>
+              <span class="h1__secondary">to Cryptocurrency</span>
+            
+            </h1>
+          </div>
+          <div class="col-md-12">
+              <form action="#" id="form" class = "text-center full_width animated fadeInUpBig">
+                <div class = "form__custom form__translate__1">
+                    <div class="form-group">
+                        <select class="form-control mw-60" id="currency">
+                            <option value="" disabled selected>- Select Currency - </option>
+                            <option value="USD">USD</option>                   
+                            <option value="EUR">EUR</option>
+                            <option value="JPY">JPY</option>
+                            <option value="KRW">KRW</option>
+                            <option value="GBP">GBP</option>
+                            <option value="CAD">CAD</option>
+                        </select>
+                  </div>
+                </div>
+
+                  <div class="form__custom form__translate__2">
+                      <div class="form-group">
+                        
+                          <select class="form-control mw-60" id="crypto">
+                                  <!-- gets populated from the UI.printCrypto-->
+                                  <option value="CAD">Select Crypto</option>
+                          </select>
+                      </div>
+                  </div>
+                
+           
+                  <input id = "myBtn" class=" btn btn-primary" type="submit" value="Get Conversion">                                
+            </form>
+           </div>
+        </div>
+        <div class="row jc-c">
+          <div class="col-md-12 col-md-offset-6 mw-80">
+              <div id="result" class = "mt-20">
+          </div>
+          
+
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>Bootstrap 4</h3>
+              <p class="lead mb-0">Bootstrap 4 themes and templates is the framework of choice, looking good for all sizes!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <h3>Custom CSS</h3>
+              <p class="lead mb-0">Customized css design and with simple light-weight plugins like animate.css </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+              <h3>E6S</h3>
+              <p class="lead mb-0">Customized code to make your website interactive. Turn a static website into a dynamic webapp!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Showcases -->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Fully Responsive Design</h2>
+            <p class="lead mb-0">This sample page uses a bootstrap 4 framework and theme to create websites that look stunning in all shapes and sizes.</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Interactive and fully functional</h2>
+            <p class="lead mb-0">Make your website interactive and optimized for lead generation. Implement rest APIs, at the latest ES6 javascript to create clean, fully functioning and non-bloated websites.   </p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Customized Websites</h2>
+            <p class="lead mb-0">We custom tailor websites to the customers specific requirements. Using the latest css3 trends, we can create a website that fits your need. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">What people are saying...</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Margaret E.</h5>
+              <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Fred S.</h5>
+              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              <h5>Sarah	W.</h5>
+              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Ready to get started? Give us a shout out!</h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+
+              <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+               
+                      <input class="form-control form-control-custom" 
+                             id="name" type="text" 
+                             placeholder="What is your name" required="required" 
+                             data-validation-required-message="Please enter your name."
+                             style = "font-size: 1.2rem;"
+                             >
+                      <p class="help-block text-danger" style = "list-style: none;"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+               
+                      <input 
+                        class="form-control" 
+                        id="email" type="email" 
+                        placeholder="Your Email" 
+                        required="required" 
+                        data-validation-required-message="Please enter your email address."
+                        style = "font-size: 1.2rem; "
+                        >
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+            
+                      <textarea 
+                        class="form-control" 
+                        id="message" 
+                        rows="5" placeholder="Ask us a question" 
+                        required="required" 
+                        data-validation-required-message="Please enter a message."
+                        style = "font-size:1.2rem"></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <br>
+                  <div id="success"></div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg" id="sendMessageButton">Send</button>
+                  </div>
+                </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    
+       
+    
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">Copyright&copy; Dash-intel.com <span class = "printtheYear"></span>. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+   <!-- Plugin JavaScript -->
+   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <script src = "js/app.js" type = "module"></script>
+    <script src="js/accounting.js"></script>
+
+     <!-- Contact Form JavaScript -->
+     <script src="js/jqBootstrapValidation.js"></script>
+     <script src="js/contact_me.js"></script>
+  
+
+  </body>
+
+</html>

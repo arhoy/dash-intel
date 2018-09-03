@@ -1,0 +1,51 @@
+/* Modified Bootstrap theme css styles */
+header.masthead h1{
+    font-size: 3rem;
+}
+
+header.masthead {
+    background: url("../img/bg-crypto.jpg") no-repeat center center;
+  }
+
+  header.masthead:before {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+	opacity: .6; 
+  }
+/* Custom css styles*/
+
+.h1__primary{
+    background: webkit-linear-gradient(to right bottom, rgb(255, 255, 255), rgb(92, 89, 89));
+    background: linear-gradient(to right bottom, rgb(255, 255, 255), rgb(92, 89, 89));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h1__secondary{
+    background: webkit-linear-gradient(to left top, rgb(255, 255, 255), rgb(92, 89, 89));
+    background: linear-gradient(to left top, rgb(255, 255, 255), rgb(92, 89, 89));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form__custom{
+    max-width: 80%;
+}
+.form__translate__1{
+    transform: translateX(20%);
+}
+.form__translate__2{
+    transform: translateX(30%);
+}
+
+#myBtn:hover{
+    animation: jello 1s;
+}
+#sendMessageButton{
+    padding: 1rem 2rem;
+}

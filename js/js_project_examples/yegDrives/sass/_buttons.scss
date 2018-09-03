@@ -1,0 +1,40 @@
+
+.btn{
+    
+    &,&:link,&:visited{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5rem;
+    transition: all .2s;
+    position: relative;
+    font-size:1.6rem;
+    z-index:80;
+    padding: 1.5rem 4rem;
+    font-weight: 500;
+    }
+
+    &:hover{
+        transform: translateY(-.3rem);
+        box-shadow: 1rem 2rem 4rem rgba($color-black,0.24);
+        transform: scale(1.03);
+        font-size: 1.7rem;
+        background-color: $color-orange;
+       
+    }
+
+    &--primary{
+        background-color:$color-orange;
+        color:white;
+    }
+
+    &--animate{
+        animation: expandIt 1.4s cubic-bezier(0.67,0.8,1,.35);
+    }
+    
+ 
+
+}
+
+

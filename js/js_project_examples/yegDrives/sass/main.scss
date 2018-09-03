@@ -1,0 +1,25 @@
+//@import "base";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/animations";
+
+//layout
+@import "layout/nav";
+@import "layout/navigation";
+@import "layout/footer";
+
+//main pages layout
+@import "pages/pages";
+
+// components and other
+@import "_buttons";
+@import "_thanks";
+@import "_homes";
+@import "_landing";
+@import "_courses";
+@import "_features";
+@import "_reviews";
+@import "_cta";
+@import "_form";
+

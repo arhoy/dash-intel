@@ -1,0 +1,143 @@
+.reviews{
+    p{
+        transform: skewX(-12deg);
+        font-weight: 400;
+    }
+    grid-column: full-start/full-end;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    color: $color-primary-dark;
+    background-image: linear-gradient(
+        to left top, 
+        rgba($color-black, .5),
+        rgba($color-black, 0.5)),
+        url(../img/yeg.jpg)
+        ;
+    background-position: center;
+      // Tablet view reviews
+      @media only screen and (max-width: $bp-largest) {
+        background-image: linear-gradient(
+            to left top, 
+            rgba($color-black, .5),
+            rgba($color-black, 0.5)),
+            url(../img/yeg.jpg)
+        ;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,1fr);
+     } //end
+
+
+
+   
+    &__header{
+        font-size: 3.4rem;
+    }
+    &__text{
+        font-size: 1.875rem;
+        font-weight: 100;
+    }
+
+    &__textbox{
+        width: 75%;
+        padding: 5rem 0rem;
+        transform: skewX(12deg);
+        background-color: rgba($color-white,0.6);
+        display:grid;
+        grid-column: 1/2;
+        align-self: center;
+        justify-items: center;
+        justify-self: center;
+        align-content: center;
+
+        @media screen and (max-width: $bp-small) {
+            transform: skewX(0);
+        }
+        &  > * {
+            transform: skewX(-12deg);
+            @media screen and (max-width: $bp-small) {
+                transform: skewX(0);
+            }
+        }
+
+      @media only screen and (max-width: $bp-largest) {
+        grid-column: 1/-1;
+        margin: 5rem 0rem;
+        padding: 2rem 0rem;
+        } //end
+      
+    }
+
+    &__lightbox{
+  
+        align-self: center;
+        justify-self: center;
+        justify-items: center;
+        align-content: center;
+        display: grid;
+        @media only screen and (max-width: $bp-largest) {
+            grid-column: 1/-1;
+            margin: 2rem 0rem;
+            padding: 2rem 0rem;
+        } //end
+        
+    }
+   
+    &__box{
+        display: grid;
+        padding: 3rem 3rem;
+        
+        width: 75%;
+        background-color: rgba($color-white,0.6);
+        grid-template-columns: 1fr;
+        transform: skewX(12deg);
+        @media screen and (max-width: $bp-small) {
+            transform: skewX(0);
+        }
+        @media only screen and (max-width: $bp-largest) {
+            align-self: center;
+            align-content: center;
+            align-items: center;
+            padding: 2rem 0rem;
+         
+        } //end
+            &--a{
+                display: flex;
+                flex-direction: row;
+                margin: 1.5rem 3rem;
+                align-items:center;  
+                justify-items: center;
+                justify-content: center;
+                justify-self: center;
+            }
+
+            &--circle{
+                padding: 2rem;
+                border-radius: 50%;
+                height: 6rem;
+                width: 6rem;
+                margin-right:1rem;
+                transform: skewX(-12deg);
+                @media screen and (max-width: $bp-small) {
+                    display: none;
+                    width:0;
+                    height:0;
+                }
+            }
+            &--red{
+                background-color: $color-red;
+            }
+            &--yellow{
+                background-color: yellow;
+            }
+            &--green{
+                background-color: green;
+                
+            }
+    }
+    &__callout{
+        @media screen and (max-width: $bp-small) {
+            padding: 0rem 1.3rem;
+        }
+    }
+  
+}

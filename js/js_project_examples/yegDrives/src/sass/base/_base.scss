@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+/*specify dimensions for the document */
+
+
+html {
+    //This defines the global defn of what 1 rem is.
+    /*  (10/16) px for when the user wants to zoom in or zoom out of the browser.  */ 
+    font-size: 62.5%; //1rem is 10px;
+  
+  
+  
+    @include respond(big-desktop){
+        font-size: 75%;  // 1 rem is now 12px;
+    }
+    @include respond(tab-land){
+        font-size: 56.25%; // 1rem is now 9px;
+    }
+    @include respond(tab-port){
+        font-size: 50%;  //1 rem is now 8px;
+    }
+    @include respond(phone){
+        font-size: 50%;
+    }
+}
+
+body {
+    box-sizing: border-box;
+ 
+     @include respond(tab-port){
+         padding: 0rem;
+     }
+}
+
+

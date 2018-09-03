@@ -1,0 +1,80 @@
+.heading{
+    
+    &-4{
+        font-size: 1.9rem;
+        font-weight: 400;
+        font-family: $font-display;
+        
+        &--light{
+            color:$color-grey-light-1;
+        }
+        &--dark{
+            color:$color-grey-dark-1;
+            
+        }
+    }
+    &-3{
+        font-size:2rem;
+        font-family: $font-display;
+        font-weight: 400;
+        &--light{
+            color:$color-grey-light-1;
+        }
+        &--dark{
+            color:$color-grey-dark-1;
+        }
+
+    }
+    &-2{
+        font-size: 4rem;
+        font-style:italic;
+        line-height: 1;
+
+        &--light{
+            color:$color-grey-light-1;
+        }
+        &--dark{
+            color:$color-grey-dark-1; 
+           
+        }
+
+    }
+    &-1{
+        line-height: 1;
+        color: $color-grey-light-1;
+        font-size: 4.5rem;
+        font-family: $font-display;
+        &:hover{
+            animation: bounce 1s ease;
+        }
+    }
+}
+
+.btn{
+    border:none;
+    background-color: $color-primary;
+    color: #fff;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+   
+   
+    &:hover{
+        background-color: $color-primary-dark;
+    }
+}
+
+.mb-sm{
+    margin-bottom:2rem;
+}
+.mb-md{
+    margin-bottom:3rem;
+}
+.mb-lg{
+    margin-bottom:4rem;
+}
+.mb-hg{
+    margin-bottom:8rem;
+}

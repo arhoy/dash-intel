@@ -1,0 +1,11 @@
+.challenge {
+    width: 100rem;
+    margin: 3rem auto;
+    background-color: lightcoral;
+    & > * {
+        background-color: green;
+        padding: 2rem;
+        font-size: 2rem;
+        grid-gap: 2rem;
+    }
+}
