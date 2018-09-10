@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creating Hostings on Github - Dash-Intel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../css/clean-blog.css" rel="stylesheet">
+
+    <!-- Prism syntax HIGHLIGHTER -->
+    <link rel="stylesheet" href="../css/prism.css" data-noprefix />
+    <script src="../js/prism.js"></script>
+
+    <!-- link to animate.css OPTION 1
+    <link rel="stylesheet" href="css/animate.css">
+    -->
+    <!-- link to animate.css OPTION 2 -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- my custom styles-->
+    <link rel="stylesheet" href="../css/style.css">
+ 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <!-- see navigation_blog.js -->
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead masthead-1" style="background-image: url('../img/axios-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Getting started with Axios</h1>
+              <h2 class="subheading">Learn how to use axios in your projects</h2>
+              <span class="meta">Posted by
+                <a href="#">aquasar</a>
+                on June 21st, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container blog">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            
+
+           <h4 class = "blog__title">What is Axios?</h4>
+           <p class = "blog__paragraph"> 
+              Why axios? Axios is a light weight library that makes it easy to fetch data or send requests to a server. It is an alternative to using jQuery, XHR or fetch
+              to write ajax related javascript. 
+              <br><br>
+              What is ajax? In a nutshell, ajax is a methodology which allows you to request and send data from a web server, in the background, without reloading the page.
+           </p>
+
+           <h4 class = "blog__title">Why should I use Axios?</h4>
+           <p class = "blog__paragraph"> 
+              You should use axios if you are planning to use APIs or build single page apps with modern frameworks like react. 
+              Axios is a popular tool for many developers that use AJAX to build fast and dynamic web pages and web apps. 
+           </p>
+
+           <h4 class = "blog__title">Advantages of using axios vs other methods</h4>
+
+           <p class = "blog__paragraph"> 
+             <strong>Axios vs Fetch:</strong> Fetch does not have support on all web browsers, only modern ones. Error handling is also better with axios. 
+             Finally, you dont need to pass .json() to get the data after sending the response to the server unlike with fetch.
+           </p>
+
+           <p class="blog__paragraph">
+              <strong>Axios vs jQuery:</strong> 
+              If you are using the entire jQuery library simply for using jQuery's ajax method, than that is a lot extra functionality and weight you simply don't need.
+             In that case, Axios is a much smaller library and therefore a better choice. 
+           </p>
+
+
+           <p class = "blog__paragraph"> 
+            <strong>Axios vs XHR:</strong> XHR stands for XmlHttpRequests. Syntax is a lot nicer with Axios and it allows you to writer cleaner and shorter code.
+           </p>
+
+           <h4 class="blog__title">How to get Axios?</h4>
+
+           <p class = "blog__paragraph">
+             You can get the CDN for axios <a href="https://cdnjs.com/libraries/axios" target = "_blank">here</a> 
+             or if you prefer download via <a href="https://www.npmjs.com/package/axios" target = "_blank" >npm</a>
+           </p>
+
+
+
+          <h4 class = "blog__title">
+            Simple Axios Example
+          </h4>
+
+          <p class="blog__paragraph">
+            In this example we use JSON placeholder, a fake online REST API used for testing and demo purposes. An <strong>async</strong> is used
+            because we are going to need to use <strong>await</strong> to wait for the data request to be returned. This gets stored in the <strong>res</strong>
+            variable. 
+            </p>
+
+            <pre><code class = "language-js">   
+    async function getResults(){
+      try{
+        const res = await axios(`https://jsonplaceholder.typicode.com/todos/1`);
+        console.log(res);
+      }
+      catch(err){
+          console.log(err);
+      }
+  
+      }
+    getResults();
+          </code></pre>
+      <p>
+          Try/Catch is used for error handling. If successful, the data is returned and logged to the console. You can see what happens in the catch statement by mistyping the url above.
+      </p>
+             
+         
+         <h4 class="blog__paragraph">
+          Another Example of using Axios.
+         </h4>
+         <p class="blog__paragraph">
+          In this example, we are going to use axios to get data from the <a href="https://www.food2fork.com/about/api" target = "_blank">food to fork</a> API.
+          We will need to use an API key, which you can get on their website and a <strong>proxy</strong> to prevent a <strong>no access control allow origin</strong> error. 
+          You can read more about that  <a href="https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646" target = "_blank">here</a> if you like.
+          </p>
+            <pre>
+                <code class = "language-js">   
+    async function getResults(query){
+      const key = 'Your API';
+      const proxy = 'https://cors-anywhere.herokuapp.com/';
+      try{
+        const res = await axios(`${proxy}http://food2fork.com/api/search?key=${key}&q=${query}`);
+        console.log(res);
+      }
+      catch(err){
+          console.log(err);
+      }
+  
+    }
+
+    getResults('tacos');
+               </code> 
+              </pre>
+          <p class="blog__paragraph">
+            In this example, <strong>getResults</strong> is called with the search query `taco` and the data from the search query is stored in the 
+            <strong>res</strong> variable. 
+          </p>
+       
+
+            <p>
+              Hope you enjoyed this article. For questions, commments and feedback please drop me a line at:
+              
+              admin@dash-intel.com 
+            </p>
+
+            <p>Photo credit
+              <a href="https://pixabay.com/en/dogs-playing-fun-water-stick-1246588/" target = "_blank">Free-photos on Pixabay</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class = "footer">
+      <!-- footer goes here from js/footer.js-->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/clean-blog.min.js"></script>
+    <script src = "../js/custom.js"></script>
+    
+    <!--navigation of site-->
+    <script src = "../js/navigation_blog.js"></script>
+    <script src = "../js/footer.js"></script>
+
+  </body>
+
+</html>

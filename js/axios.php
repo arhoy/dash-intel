@@ -62,14 +62,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </p>
               <p>Step 2: Go to the food to fork website and generate your API key. </p>
               <p>Step 3: To allow requests from all domains, 
-                we use a <a href="https://medium.com/netscape/hacking-it-out-when-cors-wont-let-you-be-great-35f6206cc646" target = "_blank">proxy</a>
+                
                 which in a nutshell allows requests to be made from all domains.     
              </p>
              <p>Step 4: Build out the asynchronous function <strong>getResults</strong>. Use a try, catch statement for error handling.
             
              </p>
 
-             <p>Why axios? Axios is a light weight library that makes it easy to handle XMLHttpRequests. Unlike fetch, it works in older browsers. </p>
+             <p>
+                
+                </p>
 
 
 
