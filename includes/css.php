@@ -48,6 +48,7 @@
             background-color: #3d547b;
             border-radius: 2px solid black;
             table-layout: fixed;
+            padding: 1rem;
             height:100%
         }
         .custom_more_margin {
@@ -197,4 +198,14 @@
 </style>
 
 
+<!-- Google Custom Search -->
+
+ <style type = "text/css">
+.custom__google__search{
+    display: inline-block;
+    max-width: 25rem;
+    margin: 1rem 0rem;
+}
+
+</style>
     

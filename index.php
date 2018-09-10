@@ -124,6 +124,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="js/js_project_examples/insurify/" target = "_blank">Insurify</a></li>
    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="js/js_project_examples/nameBook/" target = "_blank">Namebook</a></li>
    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="js/js_project_examples/yegDrives/" target = "_blank">YEG Drives</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://www.drinktopia.club/" target = "_blank">Drinktopia</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://www.recipeapp.club/" target = "_blank">Recipe App</a></li>
    </div>
  </div>
   <div class="row">
@@ -150,5 +152,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php include "includes/js.php"; ?>
 <!--McAfee-->
 <script type="text/javascript" src="https:﻿//cdn.ywxi﻿.net﻿/js/1.﻿js" async></script>
+
+
+
   </body>
 </html>

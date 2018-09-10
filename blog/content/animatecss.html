@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Animations Dash-Intel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../css/clean-blog.css" rel="stylesheet">
+
+    <!-- Prism syntax HIGHLIGHTER -->
+    <link rel="stylesheet" href="../css/prism.css" data-noprefix />
+    <script src="../js/prism.js"></script>
+
+    <!-- link to animate.css OPTION 1
+    <link rel="stylesheet" href="css/animate.css">
+    -->
+    <!-- link to animate.css OPTION 2 -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- my custom styles-->
+    <link rel="stylesheet" href="../css/style.css">
+ 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Dash-Intel</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Sample Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('../img/post-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Animate.css </h1>
+              <h2 class="subheading">Quick guide for stunning website animations with little effort and time</h2>
+              <span class="meta">Posted by
+                <a href="#">aquasar</a>
+                on August 24, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+           <h4 class = "animated tada">Getting Started</h4>
+           <p>
+             There are several ways to use <strong>animate.css</strong> in your projects.  
+           </p>
+           <h6>  Option 1: Download straight from the website.</h6>
+           <p>
+             Go to their <a href="https://daneden.github.io/animate.css/">website</a>  and hit the <em>download Animate.css</em>  link. 
+             Create a new file called <em>animate.css</em> and paste this file into it. 
+           </p>
+
+           <p>Next open up your <em>index.html</em> file and in the head section, link the two files together.  </p>
+             
+
+           <pre><code class = "language-markup">   
+            &lt;head>
+            &lt;link rel="stylesheet" href="animate.css">
+            &lt;/head>
+            </code> </pre><br>
+
+           <h6>Option 2: CDN </h6>
+           <p> Use the CDN option and simply paste the following line of code into your head tag</p>
+
+              <pre><code class = "language-markup">   
+  &lt;head>
+  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  &lt;/head>    
+              </code> </pre><br>
+
+            <h6>Option 3: NPM </h6>
+            <p>Another option for those familiar with using <a href="https://www.npmjs.com/package/animate.css" target = "_blank">Node Package Manager</a></p>
+            <pre><code class = "language-markup">   
+              npm install animate.css --save
+            </code> </pre><br><br>
+
+            <h4 class = "animated bounce infinite">Your first animation</h4>
+            <p> To test that everything is working write the following line of code in your html file: </p>
+            <pre><code class="language-markup">
+      &lt;h1 class="animated tada"&gt;Animate me once&lt;/h1&gt;
+      &lt;h1 class="animated bounce infinite"&gt;Animate always&lt;/h1&gt;
+            </code></pre>
+            <p>You should see first animation effect once. The second animation keeps on bouncing due to the <em>infinite</em> class that is added 
+             to it. It is really that simple. But what else can we do?
+            </p>
+
+            <h4 class = "myCoolStyle">Animating hover effects</h4>
+            <p>Lets say we have a new h4 header we want to animate, but only when the user hovers over it. We can create this in two steps: </p>
+            <h6> Step 1: Create the h4 in html</h6>
+            <p> We can create a new h4 element with the following class in html</p>
+            <pre><code class="language-markup">
+      &lt;h4 class="myCoolStyle"&gt;Animate me once&lt;/h4&gt;
+            </code></pre><br>
+            <h6>Step 2: Add a custom css style</h6>
+            <p>To do this create a new file <em>style.css</em> and link it to the current html file as we did earlier above with <em>animate.css</em>.
+              
+            </p>
+
+            <pre><code class = "language-markup">   
+          &lt;head>
+          &lt;link rel="stylesheet" href="style.css">
+          &lt;/head>
+            </code> </pre>
+
+            <p>The css to add in this <em>style.css</em> file is: </p>
+            <pre><code class="language-css">
+               .myCoolStyle:hover{
+                  animation: tada 1s infinite;
+               }
+            </code></pre>
+            <p>By using the css pseudo class hover together with the animate.css library, we are able to create some cool hover effects.</p>
+
+            <p>I should probably note, the animation has three parameters:
+              <em>animation name,</em>
+              <em>animation duration</em>
+              and the number of times we want the animation to loop.
+              If we change <em>infinite</em> to say <em>3</em>, the animation will only loop three times. If you want a longer loop time then changing 
+              <em>1s</em> to say <em>3s</em> will do just that.
+            </p>
+
+            <h4 id = "myDiv">Animation on clicks</h4>
+            <p>With the above examples, you only needed html and css to create the animation effects.
+              But lets say you only wanna do animations on clicks? We will need to invoke some javascript for this.
+            </p>
+            <h6>Step 1: Add Html</h6>
+            <p>Create a the element you want to animate in html, in this example we animate an h4 header tag</p>
+            <pre><code class="language-markup">
+          &lt;h4 id="myDiv"&gt;Animation on clicks&lt;/h4&gt;
+            </code></pre><br>
+
+            <h6>Step 2: Add the javascript</h6>
+            <p>Create a new javascript file <em>myAnimation.js</em> and add script tag to the html file right before the closing body tag:</p>
+
+            <pre><code class = "language-markup">   
+                &lt;script src = "js/myAnimation.js">&lt;/script>
+                &lt;/body>
+            </code> </pre>
+
+            <p>Next add in the following line of javascript code:</p>
+
+            <pre><code class="language-js">
+          const animationDiv = document.querySelector('#myDiv');
+
+          animationDiv.addEventListener('click',(e)=>{
+              e.preventDefault();
+              // add the animation effect
+              animationDiv.classList.add('anotherCoolStyle');
+              // remove animation effect after 3 seconds.
+              setTimeout(function(){
+                  animationDiv.classList.remove('anotherCoolStyle');
+              },2000);
+          });    
+            </code></pre><br>
+
+            <p>
+              The javascript code can be broken down into several steps: 
+              <ul>
+                <li>Create a click event listener on the <em>animationDiv</em> </li>
+                <li>When the h4 element is clicked, we add the class <em>anotherCoolStyle</em> </li>
+                <li>We use a setTimeout function to remove this class 2 seconds after it is clicked </li>
+              </ul>
+            </p>
+
+            <h6>Step 3: Add the css</h6>
+            <p>The final and easy step is to add the css class <em>anotherCoolStyle</em>. We can add that into the <em>style.css</em> file as shown below: </p>
+
+              <pre><code class="language-css">
+              .anotherCoolStyle{
+                animation: tada 1s 1;
+              } 
+            </code></pre><br><br>
+
+            <h4>Now it is your turn!</h4>
+            <p>The animate.css library has a ton of cool styles to play around with.
+
+              Hope you enjoyed this article. If so please drop me a line admin@dash-intel.com or subscribe above.
+            </p>
+
+            <!-- <h2 class="section-heading">The Final Frontier</h2>
+
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+
+            <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+
+            <h2 class="section-heading">Reaching for the Stars</h2>
+
+            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+
+            <a href="#">
+              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
+            </a>
+            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span> -->
+
+            <p>Photo credit
+              <a href="https://unsplash.com/search/photos/orange" target = "_blank">Oleg Laptev on Unsplash</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website <span class="printYear">${currentYear}</span> </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/clean-blog.min.js"></script>
+    <script src = "../js/myAnimation.js"></script>
+    <script src = "../js/custom.js"></script>
+
+
+  </body>
+
+</html>

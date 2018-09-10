@@ -1,0 +1,6 @@
+.myCoolStyle:hover{
+    animation: tada 1s 3;
+}
+.anotherCoolStyle{
+    animation: tada 1s 1;
+}

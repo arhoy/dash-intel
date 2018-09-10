@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creating Hostings on Github - Dash-Intel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../css/clean-blog.css" rel="stylesheet">
+
+    <!-- Prism syntax HIGHLIGHTER -->
+    <link rel="stylesheet" href="../css/prism.css" data-noprefix />
+    <script src="../js/prism.js"></script>
+
+    <!-- link to animate.css OPTION 1
+    <link rel="stylesheet" href="css/animate.css">
+    -->
+    <!-- link to animate.css OPTION 2 -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- my custom styles-->
+    <link rel="stylesheet" href="../css/style.css">
+ 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Dash-Intel</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Sample Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead masthead-1" style="background-image: url('../img/github-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Github domain hosting</h1>
+              <h2 class="subheading">Learn how you can host your domain on github at no cost</h2>
+              <span class="meta">Posted by
+                <a href="#">aquasar</a>
+                on August 24, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container blog">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            
+
+           <h4 class = "blog__title">Set up Github account</h4>
+           <p class = "blog__paragraph"> 
+             Go to <a href="https://github.com" target = "_blank">Github</a> and create a new account. For those unfamiliar, 
+             github is a platform where anyone can store their projects and code. Kinda like google drive, but for developers. 
+           </p>
+
+           <h4 class = "blog__title">Download Git</h4>
+           <p class = "blog__paragraph"> 
+             Download <a href="https://git-scm.com/" target="_blank">Git</a>. Git is an open source and free version control system.
+              This means it keeps track of changes made to your files and lets you review and revert to older versions.
+              <br><br>
+              Go and "git" it if you have not already done so. 
+           </p>
+
+           <h4 class = "blog__title">Create a new repository</h4>
+
+           <p class = "blog__paragraph"> 
+              Create new repository in github. Add repository name 
+              in the field below and select the green button <strong>create repository</strong>.
+
+           </p>
+
+
+           <p class = "blog__paragraph"> 
+             In the new page that opens up, choose option
+             <strong>`...or create new repository on the command line`</strong> and copy that code.
+
+           </p>
+
+           <h4 class="blog__title">Load files to github (via git)</h4>
+
+           <p class = "blog__paragraph">Next, go to folder where your website is stored on your local computer. Right click on this folder and select <strong>gitbash here</strong>.
+              This will open up a new command line, with the git program you installed.
+           </p>
+
+           <p class = "blog__paragraph">
+             Copy and paste that code into the command line. Using <strong>shift + insert</strong> or right click paste.
+
+             <br><br>
+             If that does not work try the following command line:
+             <br>
+             <pre><code class = "language-markup">git push https://github.com/&lt;YOUR USERNAME&gt;/&lt;YOUR REPO NAME&gt;.git</code></pre>
+         
+         </p>
+
+         <p>When you click on your repo name, you should see all your website files there! Congrats, the hard part is done.</p>
+
+         <h4 class="blog__paragraph">
+           Show website on github
+         </h4>
+         <p class="blog__paragraph">
+           In the command line that is still open in git, type the following: 
+           <br>
+           <pre><code class = "language-markup">git checkout gh-pages</code> </pre>
+           <br> This will switch the branch you are working on from the main branch to the gh-pages branch. The gh-pages branch allows you to show your website, not just your files to others.
+         </p>
+
+         <p>Finally in the command line we will do one more push to github, but this time to the gh-pages branch.</p>
+         <pre><code class = "language-markup">git push https://github.com/&lt;YOUR USERNAME&gt;/&lt;YOUR REPO NAME&gt;.git</code></pre>
+         <br>
+         In github you should now be able to see two branches. One called master and one called gh-pages. 
+         <br><br>
+         You are now also able to show the world your site.
+         Try this out by typing in the following url:
+         </p>
+         <pre><code class = "language-markup">https://&lt;YOUR USERNAME&gt;.github.io/&lt;YOUR REPO NAME&gt;/</code></pre>
+         <br><br>
+
+         <h4 class="blog__paragraph">
+            Using a custom domain name
+          </h4>
+          <p class="blog__paragraph">
+            For obvious reasons you might want to have your own domain name.
+            In this example, <a href="https://www.namecheap.com/" target="_blank">Namecheap</a> will be used, but this should be similar for other domain service providers.
+          </p>
+          <p class = "blog__paragraph">Afer buying your domain name, change the DNS configurations. In namecheap,  
+            under the list of domains, click on manage and then <strong>advanced DNS</strong> to change the value of the CNAME record. 
+            If it is a new domain, the value will be something like parked domain, or parkingpage. Change this value to your github username: 
+          </p>
+            <pre><code class = "language-markup">&lt;YOUR USERNAME&gt;.github.io</code></pre>
+            <p class = "blog__paragraph">
+                Next, change the TTL to 1 minute or so and make sure the value of the URL Redirect Record is your domain name.
+            </p> 
+
+          <p class="blog__paragraph">
+            Finally, go to your repo settings in github, or visit this url 
+            <pre><code class = "language-markup">url https://github/&lt;Your User Name&gt;/&lt;Your repo name&gt;/settings</code></pre>
+           
+            <br>
+            Under GitHub pages, right <strong>before</strong> the danger zone section, change your custom domain from blank to your purchased domain name.
+    
+          </p>
+
+        
+
+
+          <h4 class="blog__paragraph">Wait and Check</h4>
+          <p class="blog__paragraph">
+            Wait for a couple minutes and then type your domain name into the url. Did your site show up? If so congrats! You are now hosting a site for free with github. 
+
+          </p>
+
+            <p>
+              Hope you enjoyed this article. For questions, commments and feedback please drop me a line at:
+              
+              admin@dash-intel.com 
+            </p>
+
+            <!-- <h2 class="section-heading">The Final Frontier</h2>
+
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+
+            <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+
+            <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+
+            <h2 class="section-heading">Reaching for the Stars</h2>
+
+            <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+
+            <a href="#">
+              <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
+            </a>
+            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span> -->
+
+            <p>Photo credit
+              <a href="https://unsplash.com/search/photos/orange" target = "_blank">Oleg Laptev on Unsplash</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website <span class="printYear">${currentYear}</span> </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/clean-blog.min.js"></script>
+    <script src = "../js/myAnimation.js"></script>
+    <script src = "../js/custom.js"></script>
+
+
+  </body>
+
+</html>
