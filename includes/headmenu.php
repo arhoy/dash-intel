@@ -131,7 +131,9 @@
 
   </div>   
     <div class = "custom__google__search"> 
-         <gcse:searchbox-only></gcse:searchbox-only>
+  
+
+    <gcse:search></gcse:search>
     </div>
 </nav>
 

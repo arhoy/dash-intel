@@ -46,8 +46,6 @@ $(document).ready(function(){
             s.parentNode.insertBefore(gcse, s);
         })();
 
-    
 </script>
-
 
 
