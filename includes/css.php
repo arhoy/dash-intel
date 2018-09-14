@@ -49,7 +49,8 @@
             border-radius: 2px solid black;
             table-layout: fixed;
             padding: 1rem;
-            height:100%
+            height:100%;
+        
         }
         .custom_more_margin {
             margin-top: 30px;
