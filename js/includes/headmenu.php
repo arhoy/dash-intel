@@ -99,24 +99,26 @@
       
       <li class="nav-item dropdown active"><!--Start of Drop Down List-->
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          SQL
+          Blog (new)
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!-- dropdown menu start-->
           <div class = "col-sm-12"> 
-              <h4 class = "dropdown_header">Here Shortly</h4>
+               <div class = "col-sm-12"> 
+              <div>
+                <p><a class= "dropdown-item" href="../blog/">Web Tips + Tricks</a></p>
+              </div>
+         </div>
+            
          </div>
         </div><!--Drop Down Menu Ends-->
 
       </li><!--End of drop down list-->
-      
-    
+
     </ul>
-         <form class="form-inline my-2 my-lg-0" id = "my_search_bar">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-   
   </div>   
+    <div class = "custom__google__search"> 
+    <gcse:search></gcse:search>
+    </div>   
 </nav>
 
 

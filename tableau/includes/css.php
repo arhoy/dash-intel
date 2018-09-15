@@ -477,5 +477,20 @@
         
     }
 
+</style>
+
+<!-- Google Custom Search -->
+
+ <style type = "text/css">
+.custom__google__search{
+    display: inline-block;
+    max-width: 25rem;
+    margin: 1rem 0rem;
+}
+.gsc-control-cse, .gsc-control-cse-en{
+    background-color:transparent !important;
+    border: none !important;
+}
 
 </style>
+    

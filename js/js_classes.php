@@ -18,7 +18,7 @@
 
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
-<script src="includes/prism.js"></script>
+<script src = "./includes/prism.js"></script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
