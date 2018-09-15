@@ -213,4 +213,31 @@
 }
 
 </style>
+
+
+<!-- 404 error pages -->
+
+ <style type = "text/css">
+
+
+ 
+   
+    .page404__titlebox{
+        padding: 1rem;
+        text-align: center;
+    }
+    .page404__title-secondary{
+        font-size: 1rem;
+        text-align:center;
+        margin: 1rem;
+        display:block;
+    }
+    .page404__title-primary{
+        font-size: 2rem;
+        text-align:center;
+        margin: 1rem;
+        display:block;
+    }
+
+</style>
     

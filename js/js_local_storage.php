@@ -10,7 +10,7 @@
 <?php include "includes/css/css.php"; ?>
 <?php include "includes/css/css__highlighters.php"; ?>
 
-<link rel="stylesheet" href="includes/prism.css" data-noprefix />
+
 
 
 
