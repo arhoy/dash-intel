@@ -22,20 +22,17 @@
           Power BI
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
-          <div class = "col-sm-12"> 
-              <h4 class = "dropdown_header"></h4>
-              <div>
-                <p><a class= "dropdown-item" href="../powerbi#pb_intro">Power BI Intro</a></p>
-                <p><a class= "dropdown-item" href="../powerbi#howtodownload">Power BI Download</a></p>
-                <p><a class= "dropdown-item" href="../powerbi#gettingdata">Power BI Getting Data</a></p>
-                <p><a class= "dropdown-item" href="../powerbi#graph_features">Power BI Graph Features</a></p>
-                <p><a class= "dropdown-item" href="../powerbi/modeling_measure+calculated+columns.php">Power BI Measures</a></p>
-                <p><a class= "dropdown-item" href="../powerbi/modeling_measure+calculated+columns.php">Power BI Calculated Columns</a></p>
-                <p><a class= "dropdown-item" href="../powerbi/modeling_joining_tables.php">Power BI Joining Tables</a></p>
-                <p><a class= "dropdown-item" href="../powerbi#pss">Power BI Publishing Reports</a></p>
-                <p><a class= "dropdown-item" href="../powerbi#pss">Power BI Sharing</a></p>
-                <p><a class= "dropdown-item" href="../powerbi#pss">Power BI Scheduling</a></p>
-              </div>
+          <div class = "dropdown-holder"> 
+              <a class= "dropdown-item" href="../powerbi#pb_intro">Power BI Intro</a>
+              <a class= "dropdown-item" href="../powerbi#howtodownload">Power BI Download</a>
+              <a class= "dropdown-item" href="../powerbi#gettingdata">Power BI Getting Data</a>
+              <a class= "dropdown-item" href="../powerbi#graph_features">Power BI Graph Features</a>
+              <a class= "dropdown-item" href="../powerbi/modeling_measure+calculated+columns.php">Power BI Measures</a>
+              <a class= "dropdown-item" href="../powerbi/modeling_measure+calculated+columns.php">Power BI Calculated Columns</a>
+              <a class= "dropdown-item" href="../powerbi/modeling_joining_tables.php">Power BI Joining Tables</a>
+              <a class= "dropdown-item" href="../powerbi#pss">Power BI Publishing Reports</a>
+              <a class= "dropdown-item" href="../powerbi#pss">Power BI Sharing</a>
+              <a class= "dropdown-item" href="../powerbi#pss">Power BI Scheduling</a>
          </div>
         </div><!--Drop Down Menu Ends-->
 
@@ -46,16 +43,13 @@
           Tableau
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!-- dropdown menu start-->
-          <div class = "col-sm-12"> 
-              <h4 class = "dropdown_header"></h4>
-              <div>
-                <p><a class= "dropdown-item" href="../tableau#tb_intro">Tableau Overview</a></p>
-                <p><a class= "dropdown-item" href="../tableau/date_calculations_tableau.php">Date Calculations</a></p>
-                <p><a class= "dropdown-item" href="../tableau/stats_calculations_tableau.php">Stats Calculations</a></p>
-                <p><a class= "dropdown-item" href="../tableau/lod_expressions_menu_tableau.php">LOD Expressions</a></p>
-                <p><a class= "dropdown-item" href="../tableau/creating_set_tableau.php">Tableau Sets</a></p>
-              
-              </div>
+          <div class = "dropdown-holder"> 
+             
+              <a class= "dropdown-item" href="../tableau#tb_intro">Tableau Overview</a>
+              <a class= "dropdown-item" href="../tableau/date_calculations_tableau.php">Date Calculations</a>
+              <a class= "dropdown-item" href="../tableau/stats_calculations_tableau.php">Stats Calculations</a>
+              <a class= "dropdown-item" href="../tableau/lod_expressions_menu_tableau.php">LOD Expressions</a>
+              <a class= "dropdown-item" href="../tableau/creating_set_tableau.php">Tableau Sets</a>
          </div>
         </div><!--Drop Down Menu Ends-->
 
@@ -66,13 +60,11 @@
           Javascript
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
-          <div class = "col-sm-12"> 
-              <h4 class = "dropdown_header"></h4>
-              <div>
-              <p><a class= "dropdown-item" href="../js/js_intro.php">JS Intro</a></p>
-                <p><a class= "dropdown-item" href="../js/js_es6_basics.php">JS ES6</a></p>
-              </div>
-
+          <div class = "dropdown-holder"> 
+            
+            <a class= "dropdown-item" href="../js/js_intro.php">JS Intro</a>
+              <a class= "dropdown-item" href="../js/js_es6_basics.php">JS ES6</a>
+            
          </div>
         </div><!--Drop Down Menu Ends-->
 
@@ -83,16 +75,15 @@
           Example Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
-          <div class = "col-sm-12"> 
-              <h4 class = "dropdown_header"></h4>
-              <div>
-              <p><a class= "dropdown-item" href="../js/js_project_examples/cryptoCall/" target = "_blank">Cryptocall</a></p>
-                <p><a class= "dropdown-item" href="../js/js_project_examples/insurify/" target = "_blank">Insurify</a></p>
-                <p><a class= "dropdown-item" href="../js/js_project_examples/nameBook/" target = "_blank">Namebook</a></p>
-                <p><a class= "dropdown-item" href="../js/js_project_examples/yegDrives/" target = "_blank">YEG Drives</a></p>
+              <div class = "dropdown-holder"> 
+                <a class= "dropdown-item" href="../js/js_project_examples/cryptoCall/" target = "_blank">Cryptocall</a>
+                <a class= "dropdown-item" href="../js/js_project_examples/insurify/" target = "_blank">Insurify</a>
+                <a class= "dropdown-item" href="../js/js_project_examples/nameBook/" target = "_blank">Namebook</a>
+                <a class= "dropdown-item" href="../js/js_project_examples/yegDrives/" target = "_blank">YEG Drives</a>
+                <a class= "dropdown-item" href="http://www.drinktopia.club/" target = "_blank">Drinktopia</a>
+                <a class= "dropdown-item" href="https://www.recipeapp.club/" target = "_blank">Recipe App</a>
               </div>
 
-         </div>
         </div><!--Drop Down Menu Ends-->
 
       </li><!--End of drop down list-->
@@ -102,11 +93,9 @@
           Blog (new)
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!-- dropdown menu start-->
-          <div class = "col-sm-12"> 
-               <div class = "col-sm-12"> 
-              <div>
-                <p><a class= "dropdown-item" href="../blog/">Web Tips + Tricks</a></p>
-              </div>
+          <div class = "dropdown-holder"> 
+                <a class= "dropdown-item" href="../blog/">Web Tips + Tricks</a>
+          </div>
          </div>
             
          </div>

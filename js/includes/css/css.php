@@ -1,6 +1,6 @@
 
    
-    <!-- Custom CSS For Main Power BI page --> 
+   
      
     <style type = "text/css">
         .custom_card{
@@ -63,11 +63,12 @@
         
         #logo{
             color:white;
-            font-family: 'Bungee',cursive;
+            font-family: Rubik ,Arial,sans-serif;
             font-size: 100%;
             width:20%;
             
         }
+
         a#logo:hover{
             color: steelblue;
         }
@@ -109,7 +110,7 @@
         }
          
         .custom_navbar {
-            background-color: #3d547b;
+            background:linear-gradient( to right bottom, rgb(61, 84, 123),rgba(61, 84, 123,0.8));
             border-radius: 2px solid black;
             table-layout: fixed;
             height:100%
@@ -153,27 +154,32 @@
         }
         
         
-        
-        .dropdown_header{
-            color: #3d547b;
-        }
-        
-        
+        /*DROP DOWNS*/        
         .dropdown-item{
-            color:darkslategrey;
+            color:white;
             font-weight: 500;
+            padding: 0rem 0.5rem;
+            margin: 2px 0rem;
+            text-align:center;
+            width: 100%;
+
+            transition: all 0.6s ease-out;
+        }
+        .dropdown-item:hover{
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            background-color: rgb(45, 45, 45);
+            transform: translateX(0.5rem);
+            color: rgb(255,255,255);
+        }
+        .dropdown-holder, .dropdown-menu{
+            background-color: rgba(45, 45, 45,0.95);
+          
+        }
+        .dropdown-holder{
+            padding: 0.5rem 1.5rem;
         }
         
-        
-        a.dropdown-item:link { }
-        a.dropdown-itemr:visited { }
-        a.dropdown-item:hover { 
-            background-color:slategrey; text-decoration:none; font-weight:500; }
-        a.dropdown-item:active { }
-        
-        .dropdown_header{
-            margin-left:22px;
-        }
+      
         
         .left-side-bar_ul{
             margin-left:-35px;

@@ -90,7 +90,7 @@
                 <p><a class= "dropdown-item" href="js/js_project_examples/nameBook/" target = "_blank">Namebook</a></p>
                 <p><a class= "dropdown-item" href="js/js_project_examples/yegDrives/" target = "_blank">YEG Drives</a></p>
                 <p><a class= "dropdown-item" href="http://www.drinktopia.club/" target = "_blank">Drinktopia</a></p>
-                <p><a class= "dropdown-item" href="" target = "_blank">Recipe App</a></p>
+                <p><a class= "dropdown-item" href="https://www.recipeapp.club/" target = "_blank">Recipe App</a></p>
               </div>
 
          </div>
@@ -119,12 +119,6 @@
      
 
     </ul>
-         <!-- <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form> -->
-
-
 
 
      

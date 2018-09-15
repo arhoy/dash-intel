@@ -2,13 +2,13 @@
 
 
    <!--ADSENSE-->
-   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+   <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-2040528099757086",
       enable_page_level_ads: true
     });
-  </script>
+  </script> -->
 
     <!-- Bootstrap CDN -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
