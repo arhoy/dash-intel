@@ -80,10 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <h4 class = "custom_h4">Calculating the age using Prototypes (Example 2)</h4>
                      <p>
                         Create a new prototype called 
-                        <span class="myword myword__green"></span>
-                         <span class="myword myword__green"></span> 
                          <span class="myword myword__blue">`calculateAge`</span>
-                          <span class="myword myword__green"></span> 
                          for the 
                          <span class="myword myword__blue">Person</span> 
                           object function constructor.

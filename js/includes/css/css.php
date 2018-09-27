@@ -463,6 +463,22 @@
 
 </style>
 
+<style type = "text/css">
+.footer{
+   
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+.footer__link, .footer__link:visited, .footer__link:active, .footer__link:hover {
+    color: rgb(82, 82, 82);
+    font-size: .9rem;
+}
+.footer__span{
+    text-transform: uppercase;
+}
+
+</style>
+
 
 <!-- Google Custom Search -->
 

@@ -32,8 +32,15 @@
    <div class="col-sm-3"></div>
     <div class="col-sm-12 about">
        <hr>
-        <p>Dash-Intel is a site about learning basic data analytics techniques. We strive to keep things simple and concise. Tutorials, references, examples and articles are being updated and added to provide a for a great online learning experience. <br> <span>Copyright 2017</span> Dash-intel.com | All rights reserved |<a href="../termsandconditions.php">Terms</a>
-        </p>
+       <footer class = "footer">
+        <p class = "footer__paragraph">Dash-intel.com is an online resource and learning website created to help you and others find what you are looking for.
+            Tutorials, references, examples and articles are constantly being added to provide for a great online learning experience.
+            </p>
+            <p class = "footer__paragraph">
+            <span class = "footer__span"> Dash-intel.com |</span> Copyright 2018 | All rights reserved | <a class = "footer__link" href="../termsandconditions.php">Terms</a>
+            </p>
+       </footer>
+      
     </div>
     </div>
 </footer>

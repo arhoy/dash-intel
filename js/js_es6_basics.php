@@ -1,9 +1,9 @@
 <?php include "includes/header0.php"; ?>
   
   <title>Javascript ES6 Basics | Dash-Intel</title>
-<meta name="title" content= "What is Javascript | Dash-Intel" />
-<meta name="metatitle" content= "Learning Javascript basics | Dash-Intel"/>
-<meta name="description" content= "Javascript is a cross platform, light weight object oriented programming language used most commonly in the browser. With Node.JS Javascrip can be used as a server side language too.">
+<meta name="title" content= "Es6 javascript summary overview | Dash-Intel" />
+<meta name="metatitle" content= "What is new in es6 | Dash-Intel"/>
+<meta name="description" content= "What are some examples of using Es6 javascript.">
    
    
 <?php include "includes/header.php"; ?>

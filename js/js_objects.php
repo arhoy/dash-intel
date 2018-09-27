@@ -1,9 +1,9 @@
 <?php include "includes/header0.php"; ?>
   
   <title>Javascript Objects | Dash-Intel</title>
-<meta name="title" content= "What is Javascript | Dash-Intel" />
-<meta name="metatitle" content= "Learning Javascript basics | Dash-Intel"/>
-<meta name="description" content= "Javascript is a cross platform, light weight object oriented programming language used most commonly in the browser. With Node.JS Javascrip can be used as a server side language too.">
+<meta name="title" content= "What are Javascript Objects | Dash-Intel" />
+<meta name="metatitle" content= "Javascript Objects basics | Dash-Intel"/>
+<meta name="description" content= "In javascript an object is simply a collection of properties and methods that relate to the characteristics of the object they are defined in">
    
    
 <?php include "includes/header.php"; ?>
@@ -38,8 +38,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <h4 class = "custom_h4">What is a javascript object</h4>
             <p>
-            In javascript an <strong>object</strong> refers to a collection of data values. 
-            Often data values that are related to each other are grouped into an object. Keeping all these data values in one object
+            In the most simple terms, an <strong>object</strong> in javascript refers to a collection of properties and methods. 
+            <br><br>
+            Properties are like adjectives, they describe the characteristic of that object.
+        
+            Methods are like verbs which describe what the object does. A method in javascript is a function that is associated with the given object it is in. 
+            
+            The object itself then can be thought of as a noun, something that describes a person, place or thing.
+            <br><br>
+            Data values that are related to each other are often grouped into an object. Keeping all these data values in one object
             allows for more maintable and better organized code compare to having multiple variables floating around.
             </p>     
 

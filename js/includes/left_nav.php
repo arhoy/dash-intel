@@ -42,11 +42,15 @@
       </div>
       <div id="collapse3" class="collapse.show collapse show">
         <ul class = "left-side-bar_ul" >
-           <li><a href="">Objects</a></li>
+           <li><a href="./js_objects.php">Objects</a></li>
            <li><a href="./js_object_constructors.php">Function Constructors</a></li>
            <li><a href="./js_object_prototype.php">Function Prototypes</a></li>
            <li><a href="./js_object_inheritance.php">Inheritance</a></li>
-           <li><a href="">Closures -coming soon</a></li> 
+           <li><a href="./js_closures.php">Closures</a></li> 
+           <li><a href="./js_local_storage.php">Local Storage</a></li> 
+           <li><a href="./js_immediately_invoked_function_expressions.php">IIFE</a></li> 
+          
+
         </ul>
       </div>
     </div>
@@ -70,6 +74,10 @@
            <li><a href="./js_es6_basics.php#es6_tutorial_array_methods">Array Methods</a></li>
            <li><a href="./js_es6_basics.php#es6_tutorial_spread_operator">Spread Operator</a></li>
            <li><a href="./js_es6_basics.php#es6_tutorial_rest_parameters">Rest Parameters</a></li>
+           <li><a href="./js_maps.php">Maps</a></li>
+           <li><a href="./js_sets.php">Sets</a></li>
+           <li><a href="./js_classes.php">Classes</a></li>
+           <li><a href="./js_super_inhertitance_es2015_basics.php">Inheritance using Super</a></li>
         </ul>
       </div>
     </div>
@@ -85,10 +93,8 @@
       </div>
       <div id="collapse2" class="collapse.show collapse show">
         <ul class = "left-side-bar_ul" >
-           <li><a href="">The DOM -coming soon</a></li>
-           <li><a href="./js_querySelectors.php">querySelectors -coming soon</a></li>
-           <li><a href="">APIs -coming soon</a></li>
-           <li><a href="">Promises -coming soon</a></li>
+           <li><a href="./js_querySelectors.php">querySelectors</a></li>
+           <li><a href="../blog/content/getting_started_with_axios.html">Axios</a></li>
         </ul>
       </div>
     </div>

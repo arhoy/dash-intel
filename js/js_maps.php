@@ -1,10 +1,10 @@
 <?php include "includes/header0.php"; ?>
   
-  <title>Javascript Sets | Dash-Intel</title>
-<meta name="title" content= "What is Local Storage in Javascript | Dash-Intel" />
-<meta name="metatitle" content= "Learning about sets in javascript | Dash-Intel"/>
+  <title>Javascript Maps | Dash-Intel</title>
+<meta name="title" content= "  Maps in ES6 and how to use them />
+<meta name="metatitle" content= "Example of how to use maps in Es6"/>
 <meta name="description" 
-     content= "Javascript sets allow you to store a unique list of items"
+     content= "Maps are a new data strucure in es6 designed to store key / value pairs."
 >
    
    

@@ -1,10 +1,10 @@
 <?php include "includes/header0.php"; ?>
   
   <title>Javascript Classes | Dash-Intel</title>
-<meta name="title" content= "What is Local Storage in Javascript | Dash-Intel" />
-<meta name="metatitle" content= "Learning about sets in javascript | Dash-Intel"/>
+<meta name="title" content= "Classes in javascript | Dash-Intel" />
+<meta name="metatitle" content= "Classes are a new feature in ES6 | Dash-Intel"/>
 <meta name="description" 
-     content= "Javascript sets allow you to store a unique list of items"
+     content= "Classes in javascript are syntactical sugar to create function constructors for objects."
 >
    
    

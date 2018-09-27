@@ -3,7 +3,7 @@
   <title>Javascript Local Storage | Dash-Intel</title>
 <meta name="title" content= "What is Local Storage in Javascript | Dash-Intel" />
 <meta name="metatitle" content= "Learning Javascript Local Storage | Dash-Intel"/>
-<meta name="description" content= "Javascript is a cross platform, light weight object oriented programming language used most commonly in the browser. With Node.JS Javascrip can be used as a server side language too.">
+<meta name="description" content= "Local Storage in Javascript.">
    
    
 <?php include "includes/header.php"; ?>

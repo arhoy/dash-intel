@@ -1,9 +1,9 @@
 <?php include "includes/header0.php"; ?>
   
   <title>Javascript Event Handling and Query Selectors | Dash-Intel</title>
-<meta name="title" content= "What is Local Storage in Javascript | Dash-Intel" />
-<meta name="metatitle" content= "Learning Javascript Local Storage | Dash-Intel"/>
-<meta name="description" content= "Javascript is a cross platform, light weight object oriented programming language used most commonly in the browser. With Node.JS Javascrip can be used as a server side language too.">
+<meta name="title" content= "Query Selectors Javascript | Dash-Intel" />
+<meta name="metatitle" content= "Learning Javascript query selector | Dash-Intel"/>
+<meta name="description" content= "Javascript query selectors basic examples..">
    
    
 <?php include "includes/header.php"; ?>
@@ -33,9 +33,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!--Main Content-->
             
             <h2 class = "custom_more_margin">Event handling with the DOM in Javascript</h2>
-                What is event handling? Event handling lets you create dynamic and interactive websites.
+            <p>
+            What is event handling? Event handling lets you create dynamic and interactive websites.
                  When a user clicks on a button, hovers over an icon or submits a form this information is captured in the DOM. 
                  Using event handling in javascript, you can customize the user experience on your website based on the actions taken. 
+            </p>
+              
                 <h3>Event Handling using query selector</h3><br>
                 <p>
                     Using querySelector is a popular way of adding event listeners.  
@@ -57,11 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          
         
 
-          
-
-
-
-            
+        
         <?php include "includes/footer_0.php"; ?>
             
        </div>   
