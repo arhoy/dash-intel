@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Deploy React project with firebase - Dash-Intel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../css/clean-blog.css" rel="stylesheet">
+
+    <!-- Prism syntax HIGHLIGHTER -->
+    <link rel="stylesheet" href="../css/prism.css" data-noprefix />
+    <script src="../js/prism.js"></script>
+
+    <!-- link to animate.css OPTION 1
+    <link rel="stylesheet" href="css/animate.css">
+    -->
+    <!-- link to animate.css OPTION 2 -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- my custom styles-->
+    <link rel="stylesheet" href="../css/style.css">
+ 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <!-- see navigation_blog.js -->
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead masthead-1" style="background-image: url('../img/about-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Deploy React Project with Firebase</h1>
+              <h2 class="subheading">Step by step how to.</h2>
+              <span class="meta">Posted by
+                <a href="#">aquasar</a>
+                on Dec 1st, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container blog">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            
+
+           <h4 class = "blog__title">What is Firebase?</h4>
+           <p class = "blog__paragraph"> 
+            Firebase is an easy to use baas (backend as as service) for app and web developers. 
+            Firebase (aquired by Google) integrates with Google Cloud platform (Google's cloud computing services and direct competitor to AWS and Microsoft Azure). 
+             It provides a good number of features including a realtime database, syncing data automatically through a websocket.
+             <br><br> 
+             Other essential features it provides include <strong>authentication</strong>,<strong>storage</strong> and <strong>hostings</strong>.
+            This makes firebase a one-stop shop for creating and deploying a starter or simple full stack web app. 
+             <br><br>
+             Firebase is free to use for small apps and the pricing grows modestly afterward <a href="https://firebase.google.com/pricing/" target = "_blank">( see pricing )</a> 
+           </p>
+
+
+           <hr><hr>
+           <h4 class = "blog__title">Create production build in react</h4>
+           <p> In your finished react app, first make sure to create a `production` build of your react project.
+                In the terminal of your project folder:</p>
+           <pre><code class = "language-html">   
+            npm run build
+            </code></pre>
+            <br><br>
+
+           <h4 class = "blog__title">Install firebase tools</h4>
+           <p> In the terminal inside your project folder:</p>
+           <pre><code class = "language-html">   
+            npm install -g firebase-tools
+            </code></pre>
+            <br><br>
+
+
+            <h4 class = "blog__title">Deploy</h4>
+            <p> In the terminal inside your project folder: </p>
+            <pre><code class = "language-html">   
+              firebase login
+              firebase init
+             </code></pre>
+             <br>
+             <ul>
+
+             </ul>
+             <li>Inside prompt use <strong>BUILD</strong> as the public directory.</li>
+             <li>Configure as single page app <strong>YES</strong> </li>
+             <li>Overwrite build/index.html file <strong>NO</strong> </li>
+             <li>Next run <strong>firebase deploy</strong>. This should give you a temp link to your site which you can share with others. </li>
+             <hr><hr><br>
+        
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class = "footer">
+      <!-- footer goes here from js/footer.js-->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/clean-blog.min.js"></script>
+    <script src = "../js/custom.js"></script>
+    
+    <!--navigation of site-->
+    <script src = "../js/navigation_blog.js"></script>
+    <script src = "../js/footer.js"></script>
+
+  </body>
+
+</html>

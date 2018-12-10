@@ -126,6 +126,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="js/js_project_examples/yegDrives/" target = "_blank">YEG Drives</a></li>
    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://www.drinktopia.club/" target = "_blank">Drinktopia</a></li>
    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://www.recipeapp.club/" target = "_blank">Recipe App</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://cheerful-apparatus.surge.sh/" target = "_blank">My Venue</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://mitchprideworldwide.com/" target = "_blank">MPW</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://pointgreengardening.com/" target = "_blank">Point Green Gardening</a></li>
+   
    </div>
  </div>
   <div class="row">

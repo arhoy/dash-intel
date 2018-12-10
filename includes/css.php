@@ -56,16 +56,43 @@
             margin-top: 30px;
         }
         
+
+                /*DROP DOWNS*/
+        
+        
+        .dropdown-item{
+            color:white !important;
+            font-weight: 500;
+            padding: 0rem 0.5rem;
+            margin: 2px 0rem;
+            text-align:center;
+            width: 100%;
+
+            transition: all 0.6s ease-out;
+        }
+        .dropdown-item:hover{
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+            background-color: rgb(45, 45, 45);
+            transform: translateX(0.5rem);
+            color: rgb(255,255,255);
+        }
+        .dropdown-holder, .dropdown-menu{
+            background-color: rgba(45, 45, 45,0.95);
+          
+        }
+        .dropdown-holder{
+            padding: 0.5rem 1.5rem;
+        }
+        
        
         
         a:link {
             text-decoration: none;
+           
+
         }
 
-      
 
-     
-   
         @media screen and (min-width: 480px){
             body{
                 background-color:#F5F5F5;

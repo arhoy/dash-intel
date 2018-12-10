@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>How to Surge - Dash-Intel</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="../css/clean-blog.css" rel="stylesheet">
+
+    <!-- Prism syntax HIGHLIGHTER -->
+    <link rel="stylesheet" href="../css/prism.css" data-noprefix />
+    <script src="../js/prism.js"></script>
+
+    <!-- link to animate.css OPTION 1
+    <link rel="stylesheet" href="css/animate.css">
+    -->
+    <!-- link to animate.css OPTION 2 -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- my custom styles-->
+    <link rel="stylesheet" href="../css/style.css">
+ 
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <!-- see navigation_blog.js -->
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead masthead-1" style="background-image: url('../img/about-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+              <h1>Surge for front end React developers</h1>
+              <h2 class="subheading">How to Surge for front end react projects</h2>
+              <span class="meta">Posted by
+                <a href="#">aquasar</a>
+                on Nov 21st, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container blog">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            
+
+           <h4 class = "blog__title">What is Surge?</h4>
+           <p class = "blog__paragraph"> 
+                Surge is a great way to host front end only ( static ) websites. It is very easy to get started with surge, and you can deploy your sample front end site in about 5 minutes.
+              <br><br>
+        
+           </p>
+
+           <h4 class = "blog__title">Create production build in react</h4>
+           <p> First thing, make sure to create a `production` build of your react project.
+                In the terminal of your project folder:</p>
+           <pre><code class = "language-html">   
+            npm run build
+            </code></pre>
+            <br><br>
+
+           <h4 class = "blog__title">Installing Surge Globally</h4>
+           <p> In the terminal inside your project folder:</p>
+           <pre><code class = "language-html">   
+            npm install --global surge
+            </code></pre>
+            <br><br>
+
+
+            <h4 class = "blog__title">Create production build in react</h4>
+            <p> We use the surge command `-p build` to make sure we are only uploading what is inside the build directory. I.e only the files we want to upload to the server from our production build. </p>
+            <pre><code class = "language-html">   
+            surge -p build
+             </code></pre>
+             <br>
+
+             <p>If it is your first time, it will prompt you to enter an email and password.</p>
+             <p>After you have entered your email and password press enter.  All the files will then get uploaded and a test domain for you site will be provided.</p>
+             <p><strong>Your site is now `live`</strong></p>
+             <hr><hr><br>
+
+             <h4 class = "blog__title">Listing all my surge sites</h4>
+            <p> To List all your sites, in the terminal type:  </p>
+            <pre><code class = "language-html">   
+            surge list
+             </code></pre>
+             <br>
+
+             <h4 class = "blog__title">Remove project from Surge</h4>
+             <p> To stop showing your project on Surge, we can simply write </p>
+             <pre><code class = "language-markup">   
+            surge teardown &lt;your surge domain&gt;
+              </code></pre>
+              <p>For more info about surge and how to create a custom domain visit <a href="https://surge.sh/" target = "_blank" >surge.sh</a></p>
+              <hr><hr><br>
+
+              <h4 class = "blog__title">Storing to git repo and github</h4>
+              <p> For version control and keeping track of changes we can use git and github.
+                In your text editor, inside your main/root folder, create a new file called 
+                <strong>.gitignore</strong> and write the following inside it:
+              </p>
+              <pre><code class = "language-markup">   
+                node_modules/
+               </code></pre>
+               <p>The `forward slash` tells git that this is a folder we want to ignore and not track changes made to it. Next we go to the terminal and write: </p>
+
+                 <pre><code class = "language-markup">   
+                git init
+                </code></pre>
+                <p>This initializes a git repo inside the main/root folder of your project.</p>
+                <pre><code class = "language-markup">   
+                git add .
+                </code></pre>
+                <p>This adds all the files in project to be commited, except the ones in .gitignore</p>
+
+                <pre><code class = "language-markup">   
+                git commit -m "first commit"
+                </code></pre>
+                <p>Commits changes</p>
+                <br>
+                Now in <a href="https://github.com/" target="_blank" >github</a> create a new repo. Copy and paste the code for `pushing an exisiting repository from the command line`. I.e.
+                <pre><code class = "language-markup">   
+git remote add origin https://github.com/&lt;github username&gt;/&lt;github repo name&gt;.git
+git push -u origin master
+                </code></pre>
+
+                <p>Your files for the project should now be on github</p>
+            
+
+
+        
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class = "footer">
+      <!-- footer goes here from js/footer.js-->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../js/clean-blog.min.js"></script>
+    <script src = "../js/custom.js"></script>
+    
+    <!--navigation of site-->
+    <script src = "../js/navigation_blog.js"></script>
+    <script src = "../js/footer.js"></script>
+
+  </body>
+
+</html>
