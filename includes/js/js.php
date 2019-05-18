@@ -1,5 +1,5 @@
-<script type = "text/javascript">
-
+<script>
+console.log('hello from the js world')
 $(document).ready(function(){
     // Collapse the Left Navigation Bar Menus on small screen size
     var width = $(window).width();
