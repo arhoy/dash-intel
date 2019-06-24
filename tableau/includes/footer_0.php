@@ -26,7 +26,7 @@
    <div class="col-sm-3"></div>
     <div class="col-sm-12 about">
        <hr>
-        <p>Dash-Intel is a site about learning basic data analytics techniques. We strive to keep things simple and concise. Tutorials, references, examples and articles are being updated and added to provide a for a great online learning experience. <br> <span>Copyright 2017</span> Dash-intel.com | All rights reserved |<a href="../termsandconditions.php">Terms</a>
+        <p>Dash-Intel is a site about learning basic data analytics techniques. We strive to keep things simple and concise. Tutorials, references, examples and articles are being updated and added to provide a for a great online learning experience. <br> <span>Copyright 2019</span> Dash-intel.com | All rights reserved |<a href="../termsandconditions.php">Terms</a>
         </p>
     </div>
     </div>

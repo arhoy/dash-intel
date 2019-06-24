@@ -1,10 +1,10 @@
-<!--Main Content-->
+
 <div class="col-md-12 custom_more_margin"><!--Need to have col-md-10 in order to make layout possible with side bar-->
    
    <!--section for cards-->
     <div class="row">
 
-         <div class="col-md-6">
+         <div class="col-md-6 home_card_div">
           <div class="card  mb-15">
              <div class="card-block mb-15">
                <h1 class="card-title">Power BI</h1>
@@ -19,7 +19,7 @@
            </div>
          </div>
 
-           <div class="col-md-6">
+           <div class="col-md-6 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
                <h1 class="card-title">Tableau</h1>
@@ -34,7 +34,7 @@
            </div>
          </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
              <h1 class="card-title">Javascript</h1>
@@ -49,12 +49,12 @@
            </div>
          </div>
 
-           <div class="col-md-6">
+           <div class="col-md-6 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
              <h1 class="card-title">Web Portfolio</h1>
                <h2 class="card-text">Need to get up a website quickly? View our sample projects!</h2>
-               <a href="#" class="btn btn-warning mt-15 mb-15">Contact Page Coming Soon</a>
+               <a href="#" class="btn btn-warning mt-15 mb-15">Web Portolio</a>
                <ul class="list-group list-group-flush">
                <li class="list-group-item">Affordable cost, high end quality</li>
             <li class="list-group-item">Customized and tailored to your specific needs</li>

@@ -56,6 +56,7 @@
 
 </div> <!--Closes main custom_body container row-->
 </div> <!--Closes main custom_body container-->
+
   <?php include "js.php"; ?>
   
   <!--Run syntaxhighlighter-->

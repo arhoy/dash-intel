@@ -11,10 +11,15 @@
    </div>
     <div class="col-sm-3">
        <h5>Example Projects</h5>
-           <li><a href="./js_project_examples/cryptoCall/" target = "_blank">Cryptocall</a></li>
-           <li><a href="./js_project_examples/nameBook/" target = "_blank">Namebook</a></li>
-           <li><a href="./js_project_examples/insurify/" target = "_blank">Insurify</a></li>
-           <li><a href="./js_project_examples/yegDrives/" target = "_blank">Yeg Drives</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://dash-intel-demos-001.netlify.com/" target = "_blank">Your Portfolio</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://dash-intel-demo-002.netlify.com/" target = "_blank">Canadian Landmarks</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://butchbarber.netlify.com/" target = "_blank">Butch Barber</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://www.cravejs.com/" target = "_blank">Crave JS</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://pointgreengardening.com/" target = "_blank">Point Green Gardening</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://seekjs.com/" target = "_blank">Realtors Inc</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="portfolio"> View More Examples</a></li>
+
+
    </div>
    <div class="col-sm-3">
        <h5>Code Editors</h5>
@@ -30,17 +35,6 @@
    </div>
        
    <div class="col-sm-3"></div>
-    <div class="col-sm-12 about">
-       <hr>
-       <footer class = "footer">
-        <p class = "footer__paragraph">Dash-intel.com is an online resource and learning website created to help you and others find what you are looking for.
-            Tutorials, references, examples and articles are constantly being added to provide for a great online learning experience.
-            </p>
-            <p class = "footer__paragraph">
-            <span class = "footer__span"> Dash-intel.com |</span> Copyright 2018 | All rights reserved | <a class = "footer__link" href="../termsandconditions.php">Terms</a>
-            </p>
-       </footer>
-      
-    </div>
+ 
     </div>
 </footer>

@@ -31,8 +31,21 @@
    <div class="col-sm-3"></div>
     <div class="col-sm-12 about">
        <hr>
-        <p>Dash-Intel is a site about learning basic data analytics techniques. We strive to keep things simple and concise. Tutorials, references, examples and articles are being updated and added to provide a for a great online learning experience. <br> <span>Copyright 2017</span> Dash-intel.com | All rights reserved |<a href="../termsandconditions.php">Terms</a>
-        </p>
+        
+       <p> <strong>Dash-Intel</strong> is my personal Power BI, Tableau and Javascript blogging site.
+             It started out as a side project several years to learn web development and review Power BI concepts for myself. 
+             During this time I was an analyst at a small marketing company, learning Power BI to build business dashboards for reporting and analysis.
+                <br><br>
+             Over the years I have transitioned from analyst to developer and this site now serves as a holding site for some of my other projects and my 
+             
+             <strong> <a href="../portfolio">web portfolio</a></strong> 
+             I still try to keep this site updated regulary. For some of my newer projects please see the links above.
+            <br><br>
+             Question/Comments -> contact Alex Quasar / admin@dash-intel.com
+            </p>
+            <p>
+            <span>Copyright 2019</span> Dash-intel.com | <a href="termsandconditions.php">Terms</a> | All rights reserved.
+            </p>
     </div>
     </div>
 </footer>

@@ -76,12 +76,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
               <div class = "dropdown-holder"> 
-                <a class= "dropdown-item" href="../js/js_project_examples/cryptoCall/" target = "_blank">Cryptocall</a>
-                <a class= "dropdown-item" href="../js/js_project_examples/insurify/" target = "_blank">Insurify</a>
-                <a class= "dropdown-item" href="../js/js_project_examples/nameBook/" target = "_blank">Namebook</a>
-                <a class= "dropdown-item" href="../js/js_project_examples/yegDrives/" target = "_blank">YEG Drives</a>
-                <a class= "dropdown-item" href="http://www.drinktopia.club/" target = "_blank">Drinktopia</a>
-                <a class= "dropdown-item" href="https://www.recipeapp.club/" target = "_blank">Recipe App</a>
+                <p><a class= "dropdown-item" href="http://seekjs.com" target = "_blank">Realtors Inc</a></p>
+                <p><a class= "dropdown-item" href="https://www.cravejs.com" target = "_blank">Cravejs</a></p>
               </div>
 
         </div><!--Drop Down Menu Ends-->
