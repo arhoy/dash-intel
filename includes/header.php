@@ -28,7 +28,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="dash-intel home page" content="Dash-intel.com is a source for learning Power BI for business analysis and reporting. Learn more about Power BI modeling and visuals in addition to other dashboard reporting tools. "/>
     
     <title>Dash Intel Online Analytics Tutorials</title>
-    
+   
+     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
     <!-- Bootstrap CDN -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
