@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://dash-intel.com/</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_measure+calculated+columns.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_joining_tables.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/index.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/date_calculations_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/stats_calculations_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_expressions_menu_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/creating_set_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_intro.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_es6_basics.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/blog/</loc>
+  <lastmod>2018-12-10T02:10:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/index.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/index.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_bar+column_graph.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_calendar.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/termsandconditions.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_line_graphs.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_slicers.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_combo_charts.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_scatter_charts.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_waterfall_charts.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_cards_gauge.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_maps.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_chord_chart.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_tables.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_funnels.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_r_visuals.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_intro.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_calculate.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_logic.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_switch.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_stats_functions.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/references_powerbi_desktop.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/references_statistical_functions.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/references_time_intelligence_functions.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_all_selected.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/visuals_comparing_categories.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_summarizing.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/powerbi_free_vs_pro.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_dividefunction.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/adding_dates_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/difference_in_dates_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/date_truncation_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/number_of_days_in_month_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/average_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/median_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/percentiles_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/standard_deviation_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/variance_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_tableau_intro.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_percentage_of_total_sales_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_customer_order_frequency_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_customer_aquisition.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_customer_cohort_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_sales_tracker_in_tableau.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/tableau/lod_target_calculations.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/cryptoCall/</loc>
+  <lastmod>2018-08-27T04:09:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/insurify/</loc>
+  <lastmod>2018-08-27T04:12:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/nameBook/</loc>
+  <lastmod>2018-08-27T04:14:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/yegDrives/</loc>
+  <lastmod>2018-08-28T04:29:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_objects.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_object_constructors.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_object_prototype.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_object_inheritance.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_closures.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_local_storage.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_immediately_invoked_function_expressions.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_maps.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_sets.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_classes.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_super_inhertitance_es2015_basics.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_querySelectors.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/blog/content/getting_started_with_axios.html</loc>
+  <lastmod>2018-12-10T02:07:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/blog/content/deploy-react-pj-with-firebase.html</loc>
+  <lastmod>2018-12-10T02:07:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/blog/content/getting_started_with_surge.html</loc>
+  <lastmod>2018-12-10T02:07:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/blog/content/create-hosting-on-github.html</loc>
+  <lastmod>2018-12-10T02:07:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/blog/content/animatecss.html</loc>
+  <lastmod>2018-12-10T02:07:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions_ex1.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions_ex3.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions_ex2.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions_ex4.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions_ex5.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_sameperiodlastyear.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_date_functions_ex6.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/files/calendarDate_table.txt</loc>
+  <lastmod>2018-09-15T10:07:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_calculate_ex1.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_calculate_ex2.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_calculate_ex3.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_switch_ex1.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_average.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_stdev.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_rank.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_stats_functions_ex1.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/modeling_stats_functions_ex2.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_permutations+combinations.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_confidence.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_count.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_crossjoin.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_exponential.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_generate.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_geomean.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_median.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_percentile.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/statistical_functions_poisson.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_closingbalance.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_dateadd.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_datesbetween.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_datesinperiod.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_dates_mtd.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_endofmonth.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_firstdate.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_lastdate.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_next.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_openingbalance.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_parallelperiod.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_previous.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_startof.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/powerbi/time_intelligence_functions_total_mtd.php</loc>
+  <lastmod>2019-07-22T07:51:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/yegDrives/index.html</loc>
+  <lastmod>2018-08-28T04:29:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/yegDrives/form1.html</loc>
+  <lastmod>2018-08-28T04:29:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://dash-intel.com/js/js_project_examples/yegDrives/form2.html</loc>
+  <lastmod>2018-08-28T04:29:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

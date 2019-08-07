@@ -52,17 +52,49 @@
            <div class="col-md-6 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
-             <h1 class="card-title">Web Portfolio</h1>
-               <h2 class="card-text">Need to get up a website quickly? View our sample projects!</h2>
-               <a href="#" class="btn btn-warning mt-15 mb-15">Web Portolio</a>
+             <h1 class="card-title">Web Development</h1>
+               <h2 class="card-text">Using Mongo, Express, React, Node</h2>
+               <a href="portfolio/" class="btn btn-warning mt-15 mb-15">Learn More</a>
                <ul class="list-group list-group-flush">
-               <li class="list-group-item">Affordable cost, high end quality</li>
-            <li class="list-group-item">Customized and tailored to your specific needs</li>
-            <li class="list-group-item">Set up everything you need to build and grow your online presence</li>
+               <li class="list-group-item">Tailored toward companies seeking fullstack React development</li>
+            <li class="list-group-item">Looking to build long term partnerships</li>
+            <li class="list-group-item">Specialized work with the latest Javascript technologies</li>
            </ul>
              </div>
            </div>
          </div>
+
+         
+         <div class="col-md-6 home_card_div">
+          <div class="card mb-15">
+             <div class="card-block mb-15">
+             <h1 class="card-title">Wordpress Demos</h1>
+               <h2 class="card-text">Need to get up a website quickly? View our sample projects!</h2>
+               <a href="portfolio/" class="btn btn-primary mt-15 mb-15">View Demos</a>
+               <ul class="list-group list-group-flush">
+               <li class="list-group-item">Affordable cost, high end quality, premium themes</li>
+            <li class="list-group-item">Customized and tailored to your specific needs</li>
+            <li class="list-group-item">Everything you need to start growing your online presence</li>
+           </ul>
+             </div>
+           </div>
+         </div>
+
+         <div class="col-md-6 home_card_div">
+          <div class="card mb-15">
+             <div class="card-block mb-15">
+             <h1 class="card-title">Developer Articles</h1>
+               <h2 class="card-text">Are you a freelance developer or fullstack React Developer!?</h2>
+               <a href="https://www.cravejs.com/articles" target = "_blank" class="btn btn-success mt-15 mb-15">View Articles</a>
+               <ul class="list-group list-group-flush">
+               <li class="list-group-item">A growing collection of articles and tutorials</li>
+            <li class="list-group-item">Reinforce and review what you learned from various bootcamps and online tutorials</li>
+            <li class="list-group-item">Forever free, complete, full code documentation</li>
+           </ul>
+             </div>
+           </div>
+         </div>
+
 
       
 </div><!-- Main content container-->  
