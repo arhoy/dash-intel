@@ -3,7 +3,7 @@
   <title> Using Call methods in Javascript | Dash-Intel</title>
 <meta name="title" content= "What is Call in Javascript | Dash-Intel" />
 <meta name="metatitle" content= "Call in Javascript | Dash-Intel"/>
-<meta name="description" content= "Some example of using call methods in javascript to set the this keyword to a different object">
+<meta name="description" content= "Call method in javascript and how to use some examples">
    
    
 <?php include "includes/header.php"; ?>

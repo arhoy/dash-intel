@@ -23,8 +23,13 @@
        <h5>Javascript</h5>
        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/" target = "_blank">What is javascript</a></li>
        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/js_intro.php" target = "_blank">Intro to javascript</a></li>
-      <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/js_es6_basics.php" target = "_blank">Intro to ES6 javascript</a></li>
-             
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/js_es6_basics.php" target = "_blank">Intro to ES6 javascript</a></li>
+        <br><br>
+        <h5>WordPress</h5>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://demos.dash-intel.com/meccon-wordpress-demo/" target = "_blank">Meccon Ecommerce</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://dash-intel.com/demos/la-boom-food-restaurant-bistro-wordpress-theme/" target = "_blank">Go Bistro</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://demos.dash-intel.com/carfit-wordpress-demo/" target = "_blank">Carfit</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://demos.dash-intel.com/namaste-yoga-wordpress-demo" target = "_blank">Namaste Yoga</a></li>            
    </div>
    <br>
    <div class="col-sm-3">
@@ -37,8 +42,6 @@
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://pointgreengardening.com/" target = "_blank">Point Green Gardening</a></li>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://seekjs.com/" target = "_blank">Realtors Inc</a></li>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="portfolio"> View More Examples</a></li>
-
-           
    </div>
         
        
@@ -50,7 +53,6 @@
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://dash-intel.com/blog" target = "_blank">My Blog</a></li>
         <br><br>
         <h5>Other Resources <em>4</em> Developers</h5>
-
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://css-tricks.com" target = "_blank">CSS Tricks</a></li>
    </div>
  </div>
