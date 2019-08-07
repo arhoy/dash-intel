@@ -64,4 +64,4 @@
 
 
         <!-- Ads will go here or link to other pages -->
-       <?php include "includes/footer.php"; ?>
+   <?php include "../includes/footer/footer.php"; ?>

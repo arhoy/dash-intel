@@ -105,4 +105,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <!-- Ads will go here or link to other pages -->
-       <?php include "includes/footer.php"; ?>
+   <?php include "../includes/footer/footer.php"; ?>
