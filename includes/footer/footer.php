@@ -64,14 +64,14 @@
             <p> <strong>Dash-Intel</strong> is my personal Power BI, Tableau and web developer blogging site.
              It started out as a side project several years to learn web development and review Power BI. 
                 <br><br>
-             My passion is around fullstack web development, creating automated business dashboards and blend my developer and analytics skills together.
+              <strong> My passion </strong>is around fullstack web development, creating automated business dashboards and blend my developer and analytics skills together.
              I am freelancer, seeking meaningful work. 
              If you have a project or website in mind for me, please contact the email below with a brief description.
             <br><br>
-             Question/Comments -> contact Alex Quasar / admin@dash-intel.com
+           <strong>Question/Comments</strong>: Please contact admin@dash-intel.com or alex@cravejs.com
             </p>
             <p>
-            <span>Copyright 2019</span> Dash-intel.com | <a href="termsandconditions.php">Terms</a> | All rights reserved.
+            <span>Copyright 2019</span> Dash-intel.com | <a href="termsandconditions.php" target = "_blank">Terms</a> | All rights reserved.
             </p>
         
         </div>
