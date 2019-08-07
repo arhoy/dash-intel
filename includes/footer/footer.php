@@ -52,19 +52,21 @@
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://www.cravejs.com/articles" target = "_blank">Crave JS Articles</a></li>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://dash-intel.com/blog" target = "_blank">My Blog</a></li>
         <br><br>
-        <h5>Other Resources <em>4</em> Developers</h5>
+        <h5>External Resources <em>4</em> Developers</h5>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://css-tricks.com" target = "_blank">CSS Tricks</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://developer.mozilla.org/en-US/" target = "_blank">Mozilla</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://www.cravejs.com/articles" target = "_blank">CraveJs</a></li>
    </div>
  </div>
   <div class="row">
       <div class="col-sm-12 about">
           <hr>
-            <p> <strong>Dash-Intel</strong> is my personal Power BI, Tableau and Javascript blogging site.
-             It started out as a side project several years to learn web development and review Power BI concepts for myself. 
-             During this time I was an analyst at a small marketing company, learning Power BI to build business dashboards for reporting and analysis.
+            <p> <strong>Dash-Intel</strong> is my personal Power BI, Tableau and web developer blogging site.
+             It started out as a side project several years to learn web development and review Power BI. 
                 <br><br>
-             Over the years I have transitioned from analyst to developer and this site now serves as a holding site for some of my other projects and my web portfolio.
-             I still try to keep this site updated regulary. For some of my newer projects please see the links above.
+             My passion is around fullstack web development, creating automated business dashboards and blend my developer and analytics skills together.
+             I am freelancer, seeking meaningful work. 
+             If you have a project or website in mind for me, please contact the email below with a brief description.
             <br><br>
              Question/Comments -> contact Alex Quasar / admin@dash-intel.com
             </p>
