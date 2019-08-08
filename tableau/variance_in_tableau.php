@@ -49,8 +49,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>               
         <?php include "includes/footer_0.php"; ?>
         
-       </div>   
-
-
         <!-- Ads will go here or link to other pages -->
    <?php include "../includes/footer/footer.php"; ?>
+   <?php include "../includes/footer/css.php"; ?>
+
+       </div>   
+

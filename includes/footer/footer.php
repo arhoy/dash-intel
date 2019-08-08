@@ -1,13 +1,18 @@
+
+
+
+
+
 <footer class ="container">
     <hr>
    <div class="row">
    <div class="col-sm-3">
        <h5>Power Bi</h5>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/" target = "_blank">Basics</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/visuals_bar+column_graph.php" target = "_blank">Visuals</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_joining_tables.php" target = "_blank">Modeling</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_date_functions.php" target = "_blank">Date functions</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_calendar.php" target = "_blank">Date Tables</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/" >Basics</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/visuals_bar+column_graph.php" target = "_blank">Visuals</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_joining_tables.php" target = "_blank">Modeling</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_date_functions.php" target = "_blank">Date functions</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_calendar.php" target = "_blank">Date Tables</a></li>
 
     <br>
    <h5>Tableau</h5>

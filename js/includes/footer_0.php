@@ -4,34 +4,38 @@
    <div class="row">
 
    <div class="col-sm-3">
-       <h5>Quick Links</h5>
-           <li><a href="./js_intro.php" target = "_blank">Intro to javascript</a></li>
-           <li><a href="./js_es6_basics.php" target = "_blank">ES6 javascript</a></li>
-           <li><a href="./js_objects.php" target = "_blank">Objects</a></li>
+       <h5>JS Intro</h5>
+           <li><a href="./js_intro.php" >Intro to javascript</a></li>
+           <li><a href="./js_es6_basics.php" >ES6 javascript</a></li>
+           <li><a href="./js_objects.php" >Objects</a></li>
+           <li><a href="./js_intro.php#functions" >Functions</a></li>
+           <li><a href="./js_intro.php#jsIntroIf_Else_Statments" >Logical Statments</a></li>
    </div>
     <div class="col-sm-3">
-       <h5>Example Projects</h5>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://dash-intel-demos-001.netlify.com/" target = "_blank">Your Portfolio</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://dash-intel-demo-002.netlify.com/" target = "_blank">Canadian Landmarks</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://butchbarber.netlify.com/" target = "_blank">Butch Barber</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://www.cravejs.com/" target = "_blank">Crave JS</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://pointgreengardening.com/" target = "_blank">Point Green Gardening</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://seekjs.com/" target = "_blank">Realtors Inc</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="portfolio"> View More Examples</a></li>
-
+       <h5>Intermediate JS</h5>
+           <li><a href="./js_object_constructors.php" >Function Constructors</a></li>
+           <li><a href="./js_object_prototype.php" >Function Prototypes</a></li>
+           <li><a href="./js_object_inheritance.php" >Inheritance</a></li>
+           <li><a href="./js_closures.php" >Closures</a></li>
+           <li><a href="./js_immediately_invoked_function_expressions.php" >Logical Statments</a></li>
 
    </div>
    <div class="col-sm-3">
-       <h5>Code Editors</h5>
-           <li><a href="https://code.visualstudio.com/" target = "_blank">Visual Studio Code</a></li>
-           <li><a href="https://www.sublimetext.com/" target = "_blank">Sublime Text</a></li>
-           <li><a href="https://atom.io/" target = "_blank">Atom Text Editor</a></li>
+       <h5>ES6 Javascript</h5>
+           <li><a href="./js_es6_basics.php#es6_tutorial_let+const" >Let vs Const</a></li>
+           <li><a href="./js_es6_basics.php#es6_tutorial_template_strings" >Template Strings</a></li>
+           <li><a href="./js_es6_basics.php#es6_tutorial_destructuring" >Destructuring</a></li>
+           <li><a href="./js_es6_basics.php#es6_tutorial_rest_parameters" >Rest Parameters</a></li>
+           <li><a href="./js_es6_basics.php#js_classes.php">Classes</a></li>
+           <li><a href="./js_es6_basics.php#js_super_inhertitance_es2015_basics.php">Inheritance with classes</a></li>
+  
    </div>
    <div class="col-sm-3">
-       <h5>Javascript FrameWorks</h5>
-           <li><a href="https://reactjs.org/" target = "_blank">React</a></li>
-           <li><a href="https://angular.io/" target = "_blank">Angular</a></li>
-           <li><a href="https://vuejs.org/" target = "_blank">Vue</a></li>
+       <h5>External JS Resources</h5>
+           <li><a href="https://www.cravejs.com/articles" target = "_blank" >CraveJs</a></li>
+           <li><a href="https://javascript.info/" target = "_blank" >Javascript Info</a></li>
+           <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/" target = "_blank" >MDN</a></li>
+           <li><a href="https://frontendmasters.com/" target = "_blank" >Front End Masters</a></li>
    </div>
        
    <div class="col-sm-3"></div>

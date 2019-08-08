@@ -1,6 +1,9 @@
 
+
 <?php include "includes/header.php"; ?>
-<?php include "includes/css/css.php"; ?>
+<?php include 'includes/css/css.php'; ?>
+
+
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
 
@@ -21,6 +24,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- footer -->
 <?php include "includes/footer/footer.php"; ?>
+<?php include "includes/footer/css.php"; ?>
  
 </div> <!--end of col-md-10 in-->  
 </div><!--closes the page row-->

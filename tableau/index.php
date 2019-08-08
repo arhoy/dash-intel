@@ -59,9 +59,10 @@
    
             
           <?php include "includes/footer_0.php"; ?>  
-            
+                  <!-- Ads will go here or link to other pages -->
+         <?php include "../includes/footer/footer.php"; ?>
+   <?php include "../includes/footer/css.php"; ?>  
        </div>   
 
 
-        <!-- Ads will go here or link to other pages -->
-   <?php include "../includes/footer/footer.php"; ?>
+
