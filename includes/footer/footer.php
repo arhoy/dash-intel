@@ -8,27 +8,27 @@
    <div class="row">
    <div class="col-sm-3">
        <h5>Power Bi</h5>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/" >Basics</a></li>
-    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/visuals_bar+column_graph.php" target = "_blank">Visuals</a></li>
-    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_joining_tables.php" target = "_blank">Modeling</a></li>
-    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_date_functions.php" target = "_blank">Date functions</a></li>
-    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="powerbi/modeling_calendar.php" target = "_blank">Date Tables</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="../powerbi/index.php" >Basics</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="../powerbi/visuals_bar+column_graph.php" >Visuals</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="../powerbi/modeling_joining_tables.php" >Modeling</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="../powerbi/modeling_date_functions.php" >Date functions</a></li>
+    <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="../powerbi/modeling_calendar.php" >Date Tables</a></li>
 
     <br>
    <h5>Tableau</h5>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="tableau/" target = "_blank">Get Started</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="tableau/date_calculations_tableau.php" target = "_blank">Date Calculations</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="tableau/stats_calculations_tableau.php" target = "_blank">Stats Calculations</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="tableau/lod_expressions_menu_tableau.php" target = "_blank">LOD Expressions</a></li>
-   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="tableau/creating_set_tableau.php" target = "_blank">Tableau Sets</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="../tableau/" Get Started</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="../tableau/date_calculations_tableau.php" >Date Calculations</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="../tableau/stats_calculations_tableau.php" >Stats Calculations</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="../tableau/lod_expressions_menu_tableau.php">LOD Expressions</a></li>
+   <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-green animate__link" href="../tableau/creating_set_tableau.php">Tableau Sets</a></li>
        
    </div>
    <br>
   <div class="col-sm-3">
        <h5>Javascript</h5>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/" target = "_blank">What is javascript</a></li>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/js_intro.php" target = "_blank">Intro to javascript</a></li>
-       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="js/js_es6_basics.php" target = "_blank">Intro to ES6 javascript</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="../js/"> What is javascript</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="../js/js_intro.php">Intro to javascript</a></li>
+       <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-purple animate__link" href="../js/js_es6_basics.php" >Intro to ES6 javascript</a></li>
         <br><br>
         <h5>WordPress</h5>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://demos.dash-intel.com/meccon-wordpress-demo/" target = "_blank">Meccon Ecommerce</a></li>

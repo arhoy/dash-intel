@@ -1,6 +1,6 @@
 <?php include "includes/header0.php"; ?>
 
-<title>What Are Actuarial Exams</title>
+<title>Tips for getting an actuary job</title>
 <meta name="title" content= "What are actuarial exams | Dash-Intel" />
 <meta name="metatitle" content= "The actuarial exam proccess" />
 <meta name="description" content="This section will go over a summary of what actuarial exams are and look like in North America.">
