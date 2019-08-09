@@ -8,10 +8,13 @@
    
 
 <?php include "includes/header.php"; ?>
-<?php include "includes/css.php"; ?>
+<?php include "../includes/header/header.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
+
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
-<?php include "includes/headmenu.php"; ?>
+<?php include_once("../includes/utils/analyticstracking.php") ?>
+<?php include "../includes/header/headmenu.php"; ?>
  
 
 <div class = "container-fluid custom_body_main">

@@ -6,9 +6,11 @@
 <meta name="description" content= "Different types of count functions in power bi and examples of how to use them.">
    
 <?php include "includes/header.php"; ?>
-<?php include "includes/css.php"; ?>
+<?php include "../includes/header/header.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
+<?php include_once("../includes/utils/analyticstracking.php") ?>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

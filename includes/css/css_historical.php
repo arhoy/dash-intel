@@ -1,8 +1,8 @@
 
    
-    <!-- Custom CSS For Main Tableau page --> 
-     <style type = 'text/css'></style>
-    <style type = "text/css">
+   
+     
+   <style type = "text/css">
         .custom_card{
             max-width: 100%;
             height: auto;
@@ -10,7 +10,7 @@
             margin:auto;
    
         } 
-        
+     
          .card-columns {
              
         }
@@ -27,34 +27,18 @@
           max-width: 100% ;
           height: auto ;
         }
-    </style>
-        
-<!--New Tableau-->   
-<style type = 'text/css'>
-        .lesson_example{
-    background-color: lightgray;
-    margin: 0;
-    max-width: 100%;
-    height: auto
-    
-}
-        .key_equation{
-    background-color: lightgray;
-    color:black;
-    padding: 10px 0px 10px 0px;
-    max-width: 100%;
-    height: auto;
-    font-size: 16px;
-    font-family: roboto;   
-}
-    
-    .sub_section_navigation a{
-        font-size: 16px;
-        color: steelblue;
-    }
+        .no__spam{
+            margin-top: 2px;
+            color: green;
+            display:inline-block;
+            position:relative;
+            top: 6px;
+            left: 10px;
+        }
 
-</style>
- 
+    </style>
+  
+   
    
     <!-- Custom CSS For Left Navigation --> 
     <style type = "text/css">
@@ -67,22 +51,24 @@
         
          a{
             color: darkblue;
-            font-size: 16px;
+            font-size: 18px;
         }
 
         
         p{
-            font-family: 'Roboto', sans-serif; 
+            font-family: Rubik ,Arial,sans-serif;
+            color:rgb(82, 82, 82);
         }
         
         
         #logo{
             color:white;
-            font-family: 'Bungee',cursive;
+            font-family: Rubik ,Arial,sans-serif;
             font-size: 100%;
             width:20%;
             
         }
+
         a#logo:hover{
             color: steelblue;
         }
@@ -107,6 +93,10 @@
             background-color: whitesmoke;
             
         }
+
+        .pl-25{
+            padding-left: 25px;
+        }
         
         li {
             list-style-type: none;
@@ -120,7 +110,7 @@
         }
          
         .custom_navbar {
-            background-color: #3d547b;
+            background:linear-gradient( to right bottom, rgb(61, 84, 123),rgba(61, 84, 123,0.8));
             border-radius: 2px solid black;
             table-layout: fixed;
             height:100%
@@ -134,12 +124,7 @@
         }
        
         
-        a:link {
-            text-decoration: none;
-        }
-        a:hover {
-            color: #483D8B;
-        }
+        
     
 
         .custom_list-style{
@@ -151,7 +136,7 @@
    
         @media screen and (min-width: 480px){
             body{
-                background-color:#F5F5F5;
+                background-color:background-color:#F5F5F5;;
             }
         }
  
@@ -167,6 +152,15 @@
         li.nav-item:hover{
             color: black;
         }
+        
+        
+        /*DROP DOWNS*/
+
+        .dropdown_header{
+            color: #3d547b;
+        }
+        
+        
         .dropdown-item{
             color:white;
             font-weight: 500;
@@ -192,7 +186,6 @@
         }
         
       
-  
         
         .left-side-bar_ul{
             margin-left:-35px;
@@ -209,6 +202,13 @@
         }
          .panel-title a:hover{
             color:rebeccapurple;
+        }
+        .position__fixed{
+            position: sticky;
+            background-color:lightgrey;
+        }
+        .position__sticky{
+            position:sticky;
         }
     </style>
     
@@ -237,26 +237,12 @@
         margin-bottom: 20px;
         margin-top: 20px;
     }
-    
     .whitebox1{
         background-color: white;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-left: 50px;
         padding-right:50px;
-        
-    }
-    
-        .custom_color_box{
-        background-color:#e8edf7;
-           padding-top: 10px;
-        padding-bottom: 15px;
-        padding-left: 50px;
-        padding-right:50px;
-        
-        margin-bottom: 20px;
-        margin-top: 20px;
-
         
     }
     .borderbox{
@@ -480,7 +466,9 @@
         
     }
 
+
 </style>
+
 
 <!-- Google Custom Search -->
 
@@ -497,3 +485,225 @@
 
 </style>
     
+
+
+    <!-- Custom CSS For Main Tableau page --> 
+    <style type = 'text/css'></style>
+    <style type = "text/css">
+        .custom_card{
+            max-width: 100%;
+            height: auto;
+            background-color: white;
+            margin:auto;
+   
+        } 
+        
+         .card-columns {
+             
+        }
+        .custom_card_button{
+            float:right;
+        
+        }
+        a.custom_card_button{
+            color:white;
+        }
+        
+        img {
+          width: auto ;
+          max-width: 100% ;
+          height: auto ;
+        }
+    </style>
+        
+<!--New Tableau-->   
+<style type = 'text/css'>
+        .lesson_example{
+    background-color: lightgray;
+    margin: 0;
+    max-width: 100%;
+    height: auto
+    
+}
+        .key_equation{
+    background-color: lightgray;
+    color:black;
+    padding: 10px 0px 10px 0px;
+    max-width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-family: roboto;   
+}
+    
+    .sub_section_navigation a{
+        font-size: 16px;
+        color: steelblue;
+    }
+
+</style>
+ 
+
+ <!-- Custom CSS for page content -->
+<style type = "text/css">
+    
+    .whitebox{
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right:50px;
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+    }
+    .smokebox{
+        border: 2px solid black;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right:50px;
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .whitebox1{
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right:50px;
+        
+    }
+    
+        .custom_color_box{
+        background-color:#e8edf7;
+           padding-top: 10px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+        padding-right:50px;
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        
+    }
+    .borderbox{
+      
+    }
+    p{
+        font-size: 110%;
+    }
+    li {
+        font-size: 110%;
+    }
+    iframe{
+        overflow: scroll;
+    }
+        
+    .key-concept{
+        background-color: #DDFFDD;
+    }
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px; height: 0; overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        }
+    
+        .image-container {
+         max-width:100%;
+         height: auto;
+         overflow: hidden;
+             
+        }
+    
+         .image-container-float {
+         max-width:100%;
+         height: auto;
+         float:right;
+         overflow: hidden;
+             
+        }
+        .image-container-scroll {
+         max-width:100%;
+         height: auto;
+         overflow: scroll;
+             
+        }
+        .image_margin{
+            margin-left: 15px;
+        }
+
+    
+        .custom_thead{
+        color:white;
+        background-color: #3d547b;
+        padding:10px;
+        }
+    
+        .custom_tbody{
+        background-color: white;
+        color: black;
+        }
+    
+        .try_it_out{
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .content_indent{
+            margin-left: 30px;    
+        }
+   
+        .custom_pagination{
+            
+        }
+        .previous_page{
+           
+        }
+       .page-link-previous{
+           color: #3d547b;
+           
+        }
+        .page-link-previous:hover{
+            color: #3d547b;
+            box-shadow: 10px 10px 5px grey;
+
+        }
+        .next_page{
+        }
+        .page-link-next{
+            background-color: #3d547b;
+            color: white;
+        }
+    
+       .page-link-next:visited{
+            background-color: #3d547b;
+            color: white;
+        }
+        .page-link-next:hover{
+            background-color: #3d547b;
+            color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+         .page-link-next:active{
+            background-color: #3d547b;
+            color: white;
+        }
+ 
+
+
+
+    
+</style>    

@@ -1,7 +1,8 @@
 
 
 <?php include "includes/header.php"; ?>
-<?php include "includes/css.php"; ?>
+<?php include "../includes/header/header.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
 <?php
 
 $status=$_SERVER['REDIRECT_STATUS'];
@@ -37,6 +38,7 @@ if($errortitle==false){
 
 <!-- Insert headers here. -->
 <?php include_once("includes/analyticstracking.php") ?>
+<?php include_once("../includes/utils/analyticstracking.php") ?>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"

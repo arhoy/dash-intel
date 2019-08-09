@@ -21,16 +21,16 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
           <div class = "col-sm-12"> 
               <div>
-                <p><a class= "dropdown-item" href="powerbi">Power BI Intro</a></p>
-                <p><a class= "dropdown-item" href="powerbi/#howtodownload">Power BI Download</a></p>
-                <p><a class= "dropdown-item" href="powerbi/#gettingdata">Power BI Getting Data</a></p>
-                <p><a class= "dropdown-item" href="powerbi/#graph_features">Power BI Graph Features</a></p>
-                <p><a class= "dropdown-item" href="powerbi/modeling_measure+calculated+columns.php">Power BI Measures</a></p>
-                <p><a class= "dropdown-item" href="powerbi/modeling_measure+calculated+columns.php">Power BI Calculated Columns</a></p>
-                <p><a class= "dropdown-item" href="powerbi/modeling_joining_tables.php">Power BI Joining Tables</a></p>
-                <p><a class= "dropdown-item" href="powerbi/#pss">Power BI Publishing Reports</a></p>
-                <p><a class= "dropdown-item" href="powerbi/#pss">Power BI Sharing</a></p>
-                <p><a class= "dropdown-item" href="powerbi/#pss">Power BI Scheduling</a></p>
+                <p><a class= "dropdown-item" href="../powerbi">Power BI Intro</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/#howtodownload">Power BI Download</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/#gettingdata">Power BI Getting Data</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/#graph_features">Power BI Graph Features</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/modeling_measure+calculated+columns.php">Power BI Measures</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/modeling_measure+calculated+columns.php">Power BI Calculated Columns</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/modeling_joining_tables.php">Power BI Joining Tables</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/#pss">Power BI Publishing Reports</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/#pss">Power BI Sharing</a></p>
+                <p><a class= "dropdown-item" href="../powerbi/#pss">Power BI Scheduling</a></p>
               </div>
          </div>
         </div><!--Drop Down Menu Ends-->
@@ -45,11 +45,11 @@
           <div class = "col-sm-12"> 
                <div class = "col-sm-12"> 
               <div>
-                <p><a class= "dropdown-item" href="tableau/index.php">Tableau Intro</a></p>
-                 <p><a class= "dropdown-item" href="tableau/date_calculations_tableau.php">Date Calculations</a></p>
-                  <p><a class= "dropdown-item" href="tableau/stats_calculations_tableau.php">Stats Calculations</a></p>
-                   <p><a class= "dropdown-item" href="tableau/lod_expressions_menu_tableau.php">LOD Expressions</a></p>
-                   <p><a class= "dropdown-item" href="tableau/creating_set_tableau.php">Tableau Sets</a></p>
+                <p><a class= "dropdown-item" href="../tableau/index.php">Tableau Intro</a></p>
+                 <p><a class= "dropdown-item" href="../tableau/date_calculations_tableau.php">Date Calculations</a></p>
+                  <p><a class= "dropdown-item" href="../tableau/stats_calculations_tableau.php">Stats Calculations</a></p>
+                   <p><a class= "dropdown-item" href="../tableau/lod_expressions_menu_tableau.php">LOD Expressions</a></p>
+                   <p><a class= "dropdown-item" href="../tableau/creating_set_tableau.php">Tableau Sets</a></p>
               </div>
          </div>
             
@@ -66,8 +66,8 @@
           <div class = "col-sm-12"> 
               <h4 class = "dropdown_header"></h4>
               <div>
-              <p><a class= "dropdown-item" href="js/js_intro.php">JS Intro</a></p>
-                <p><a class= "dropdown-item" href="js/js_es6_basics.php">JS ES6</a></p>
+              <p><a class= "dropdown-item" href="../js/js_intro.php">JS Intro</a></p>
+                <p><a class= "dropdown-item" href="../js/js_es6_basics.php">JS ES6</a></p>
               </div>
 
          </div>

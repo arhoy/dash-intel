@@ -1,4 +1,4 @@
-<?php include "includes/header0.php"; ?>
+<?php include "../includes/header/header0.php"; ?>
   
 <title>Date Truncation | Tableau</title>
 <meta name="title" content= "Date Truncation in Tableau | Dash-Intel" />
@@ -8,15 +8,17 @@
    
    
 <?php include "includes/header.php"; ?>
-<?php include "includes/css.php"; ?>
+<?php include "../includes/header/header.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
 <body>
-<?php include_once("includes/analyticstracking.php") ?>
+
+<?php include_once("../includes/utils/analyticstracking.php") ?>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<?php include "includes/headmenu.php"; ?>
+<?php include "../includes/header/headmenu.php"; ?>
  
 
 <div class = "container-fluid custom_body_main">
@@ -77,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      <p><strong>These calculations </strong> come in handy when finding the number of days in the month, quarter or year dynamically.
         </div>
 
-        <?php include "includes/footer_0.php"; ?>
+       
         
         <!-- Ads will go here or link to other pages -->
         <?php include "../includes/footer/footer.php"; ?>

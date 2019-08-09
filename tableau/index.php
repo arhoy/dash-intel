@@ -1,17 +1,18 @@
-<?php include "includes/header0.php"; ?>
+<?php include "../includes/header/header0.php"; ?>
 
 <title>Learn Tableau</title>
 <meta name="title" content= "Learn Tableau | Dash-Intel" />
 <meta name="metatitle" content= "Learn how to use Tableau | Dash-Intel" />
 <meta name="description" content="Getting started with Tableau. Learn about Tableau and how it can help with your business intelligence.">
 
-   
 
-<?php include "includes/header.php"; ?>
-<?php include "includes/css.php"; ?>
+<?php include "../includes/header/header.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
+
 <body>
-<?php include_once("includes/analyticstracking.php") ?>
-<?php include "includes/headmenu.php"; ?>
+
+<?php include_once("../includes/utils/analyticstracking.php") ?>
+<?php include "../includes/header/headmenu.php"; ?>
  
 
 <div class = "container-fluid custom_body_main">
@@ -56,13 +57,8 @@
               
          </div>
 
-   
-            
-          <?php include "includes/footer_0.php"; ?>  
                   <!-- Ads will go here or link to other pages -->
          <?php include "../includes/footer/footer.php"; ?>
-   <?php include "../includes/footer/css.php"; ?>  
+         <?php include "../includes/footer/css.php"; ?>  
        </div>   
-
-
 

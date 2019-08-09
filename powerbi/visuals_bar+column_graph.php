@@ -6,9 +6,11 @@
 <meta name="description" content= "Bar and Column charts are common ways to visualize data. In a bar chart the data bars are stacked horizontal, while in a column chart the data bars are vertically aligned.">
    
 <?php include "includes/header.php"; ?>
-<?php include "includes/css.php"; ?>
+<?php include "../includes/header/header.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
+<?php include_once("../includes/utils/analyticstracking.php") ?>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

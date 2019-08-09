@@ -6,8 +6,9 @@
 <meta name="description" content= "What are some examples of using Es6 javascript.">
    
    
-<?php include "includes/header.php"; ?>
+<?php include "../includes/header/header.php"; ?>
 <?php include "includes/css/css.php"; ?>
+<?php include "../includes/css/css_historical.php"; ?>
 <?php include "includes/css/css__highlighters.php"; ?>
 
 
@@ -15,6 +16,7 @@
 
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
+<?php include_once("../includes/utils/analyticstracking.php") ?>
 <script src="includes/prism.js"></script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"
