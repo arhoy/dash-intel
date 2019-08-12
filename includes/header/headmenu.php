@@ -9,7 +9,7 @@
   </button>
   
     <a id = "logo" href="../">
-          DASH-INTEL<span class = "dotcom">.COM</span> 
+          DASH-INTEL<span class = "dotcom"></span> 
         </a>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -67,7 +67,19 @@
               <h4 class = "dropdown_header"></h4>
               <div>
               <p><a class= "dropdown-item" href="../js/js_intro.php">JS Intro</a></p>
-                <p><a class= "dropdown-item" href="../js/js_es6_basics.php">JS ES6</a></p>
+              <p><a class= "dropdown-item" href="../js/js_es6_basics.php">JS ES6</a></p>
+              <p><a class= "dropdown-item" href="../js/js_intro.php#jsIntroVariables.php"> JS Variables  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_intro.php#jsIntroLogicalOperators.php"> JS Logical Operators  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_intro.php#jsIntro_functionExpression.php"> JS Function Expressiosn  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_intro.php#jsIntro_functionDeclarations.php"> JS Function Declarations </a></p>
+              <p><a class= "dropdown-item" href="../js/js_intro.php#jsIntro_functionConstructo.php"> JS Function Constructors  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_objects.php"> JS Objects </a></p>
+              <p><a class= "dropdown-item" href="../js/js_object_inheritance.php"> JS Inheritance  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_closures.php"> JS Closures  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_es6_basics.php#es6_tutorial_template_strings.php">JS Template Strings</a></p>
+              <p><a class= "dropdown-item" href="../js/js_es6_basics.php#es6_tutorial_destructuring.php"> JS Destructuring </a></p>
+              <p><a class= "dropdown-item" href="../js/js_es6_basics.php#es6_tutorial_spread_operator.php"> JS Spread Operator  </a></p>
+              <p><a class= "dropdown-item" href="../js/js_classes.php"> JS Classes  </a></p>
               </div>
 
          </div>
