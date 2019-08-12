@@ -27,6 +27,7 @@
            <li><a href="./js_intro.php#jsIntro_functionConstructors">Function Constructors</a></li>
 
 
+
         </ul>
       </div>
     </div>
@@ -95,6 +96,7 @@
         <ul class = "left-side-bar_ul" >
            <li><a href="./js_querySelectors.php">querySelectors</a></li>
            <li><a href="../blog/content/getting_started_with_axios.html">Axios</a></li>
+           <li><a href="./js-resources-for-beginner-javascript-web-developers.php">External Resources</a></li>
         </ul>
       </div>
     </div>
