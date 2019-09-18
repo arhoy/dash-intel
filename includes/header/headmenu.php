@@ -9,7 +9,7 @@
   </button>
   
     <a id = "logo" href="../">
-          DASH-INTEL<span class = "dotcom"></span> 
+          DASH-INTEL 
         </a>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -91,40 +91,20 @@
 
         <li class="nav-item dropdown active"><!--Start of Drop Down List-->
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Example Projects
+          Extras
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!--dropdown menu start-->
           <div class = "col-sm-12"> 
               <h4 class = "dropdown_header"></h4>
               <div>
-                <p><a class= "dropdown-item" href="http://seekjs.com" target = "_blank">Realtors Inc</a></p>
                 <p><a class= "dropdown-item" href="https://www.cravejs.com" target = "_blank">Cravejs</a></p>
+                <p><a class= "dropdown-item" href="../blog/">Web Tips + Tricks</a></p>
+                <p><a class= "dropdown-item" href="../actuarial-exams/">Actuarial Exams</a></p>
               </div>
 
          </div>
         </div><!--Drop Down Menu Ends-->
-        </li><!--End of drop down list-->
-      
-            <li class="nav-item dropdown active"><!--Start of Drop Down List-->
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          Blog (new)
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <!-- dropdown menu start-->
-          <div class = "col-sm-12"> 
-               <div class = "col-sm-12"> 
-              <div>
-                <p><a class= "dropdown-item" href="blog/">Web Tips + Tricks</a></p>
-              </div>
-         </div>
-            
-         </div>
-        </div><!--Drop Down Menu Ends-->
-
-      </li><!--End of drop down list-->
-      
- 
-      
-     
+        </li><!--End of drop down list-->     
 
     </ul>
 
@@ -142,5 +122,17 @@
 
 
 
-
- 
+<script>
+  (function() {
+    var cx = '014512838652984683833:4htk1ddi8f0';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+window.onload = function(){
+document.getElementById('gsc-i-id1').placeholder = 'Search Dash-Intel';
+};
+</script>

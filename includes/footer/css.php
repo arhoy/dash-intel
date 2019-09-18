@@ -32,7 +32,7 @@
         }
 
         .mainpage__link:hover{
-            font-size: 1.4rem;
+            font-weight:100;
             cursor: pointer;
             
             

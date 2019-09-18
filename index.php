@@ -1,8 +1,14 @@
 
 
 <?php include "includes/header/header.php"; ?>
-<?php include 'includes/css/css.php'; ?>
 
+<!-- Global Stylesheets -->
+<?php include "includes/css/css_historical.php"; ?>
+
+<!-- Section Style Stylesheets -->
+
+<!-- Page Specific Stylesheets -->
+<?php include "includes/css/pages/root/css_index.php"; ?>
 
 <body>
 <?php include_once("includes/analyticstracking.php") ?>
@@ -13,6 +19,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <?php include "includes/header/headmenu.php"; ?>
+
  
 
 <div class = "container">

@@ -5,14 +5,7 @@
 <html lang="en">
   <head>
   
-  
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-2040528099757086",
-    enable_page_level_ads: true
-  });
-</script>
+
   
    <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,6 +49,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <link href="includes/styles/shCore.css" rel="stylesheet" type="text/css" />
             <link href="includes/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
 
+            <!-- Google fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Cute+Font|Gayathri|Share+Tech+Mono&display=swap" rel="stylesheet">
 
     <!--Include Mathjax for latex onto the site-->
     <script type="text/x-mathjax-config">

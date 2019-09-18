@@ -3,6 +3,10 @@
    
      
    <style type = "text/css">
+
+        a:hover {
+            color: #3d547b;
+        }
         .custom_card{
             max-width: 100%;
             height: auto;
@@ -62,15 +66,19 @@
         
         
         #logo{
-            color:white;
-            font-family: Rubik ,Arial,sans-serif;
-            font-size: 100%;
-            width:20%;
-            
+            color: white;
+            font-size: 19px;
+            font-weight: bold;
+            width: 20%;
+            height: 100%;
+            letter-spacing: 6px;
+            transform: translate(0px, -4px);
+            transition: .4s all ease-in;
         }
+        #logo:hover {
+            text-decoration: none;
+            transform: translate(0px, 0px) rotateX(45deg);
 
-        a#logo:hover{
-            color: steelblue;
         }
         
         .dash-intel-Home{
@@ -475,12 +483,14 @@
  <style type = "text/css">
 .custom__google__search{
     display: inline-block;
-    max-width: 25rem;
-    margin: 1rem 0rem;
+    width:23rem;
 }
 .gsc-control-cse, .gsc-control-cse-en{
     background-color:transparent !important;
     border: none !important;
+}
+.cse, .gsc-search-button-v2, .gsc-search-button-v2{
+    display:none !important;
 }
 
 </style>

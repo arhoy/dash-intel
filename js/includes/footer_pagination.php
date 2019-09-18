@@ -1,7 +1,7 @@
-
+<!-- 
  
 <!--Add at the top of the footer_0 page when needed-->
- <nav aria-label="Page navigation example">
+ <!-- <nav aria-label="Page navigation example">
   <ul class="pagination pagination custom_pagination justify-content-center">
    <div class = "float_left">
         <li class="previous_page">
@@ -13,5 +13,5 @@
     </li>
     </div>
   </ul>
-</nav>
-   
+</nav> -->
+    -->

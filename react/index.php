@@ -8,7 +8,7 @@
    
 <?php include "includes/header.php"; ?>
 <?php include "../includes/header/header.php"; ?>
-<?php include "includes/css/css.php"; ?>
+
 <?php include "../includes/css/css_historical.php"; ?>
 <?php include "includes/css/styles.php"; ?>
 <?php include "includes/css/css__highlighters.php"; ?>

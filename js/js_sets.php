@@ -1,4 +1,5 @@
-<?php include "includes/header0.php"; ?>
+
+<?php include "../includes/header/header0.php"; ?>
   
   <title>Javascript Sets | Dash-Intel</title>
 <meta name="title" content= "What is Local Storage in Javascript | Dash-Intel" />
@@ -10,7 +11,7 @@
    
 <?php include "includes/header.php"; ?>
 <?php include "../includes/header/header.php"; ?>
-<?php include "includes/css/css.php"; ?>
+
 <?php include "../includes/css/css_historical.php"; ?>
 <?php include "includes/css/css__highlighters.php"; ?>
 
@@ -24,14 +25,16 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKM22TJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<?php include "includes/headmenu.php"; ?>
+<!-- Global Components -->
+<!-- Global Components -->
+<?php include "../includes/header/headmenu.php"; ?>
  
 
 <div class = "container-fluid custom_body_main">
 <div class = "row">
       
-       <!-- Left Side Bar/Navigation-->
-       <?php include "includes/left_nav.php"; ?>
+  
+<?php include "../includes/navigation/left_nav.php"; ?>
            
             
         <!--Main Content-->
