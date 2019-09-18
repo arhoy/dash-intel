@@ -7,7 +7,7 @@
 <meta name="description" content= "Learning Javascript Dash-intel. Should I learn javascript?">
    
    
-<?php include "includes/header.php"; ?>
+
 <?php include "../includes/header/header.php"; ?>
 
 <?php include "includes/css/styles.php"; ?>

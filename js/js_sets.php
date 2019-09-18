@@ -9,7 +9,7 @@
 >
    
    
-<?php include "includes/header.php"; ?>
+
 <?php include "../includes/header/header.php"; ?>
 
 <?php include "../includes/css/css_historical.php"; ?>
@@ -122,5 +122,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <!-- Ads will go here or link to other pages -->
+   <?php include "../includes/navigation/right_nav.php"; ?>
    <?php include "../includes/footer/footer.php"; ?>
    <?php include "../includes/footer/css.php"; ?>

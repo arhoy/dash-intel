@@ -235,12 +235,12 @@
               </ul>
             </div>
    
-            
-          <?php include "includes/footer_0.php"; ?>  
-          <?php require "../includes/footer/footer.php"; ?>  
-          <?php include "../includes/footer/css.php"; ?>
+
+            <!-- Ads will go here or link to other pages-->
+            <?php include "../includes/navigation/right_nav.php"; ?>
+            <?php require "../includes/footer/footer.php"; ?>  
+            <?php include "../includes/footer/css.php"; ?>
        </div>   
 
 
-        <!-- Ads will go here or link to other pages
-
+      

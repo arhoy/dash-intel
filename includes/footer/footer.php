@@ -63,22 +63,7 @@
    </div>
  </div>
   <div class="row">
-      <div class="col-sm-12 about">
-          <hr>
-            <p> <strong>Dash-Intel</strong> is my personal Power BI, Tableau and web developer blogging site.
-             It started out as a side project several years to learn web development and review Power BI. 
-                <br><br>
-              <strong> My passion </strong>is around fullstack web development, creating automated business dashboards and blend my developer and analytics skills together.
-             I am freelancer, seeking meaningful work. 
-             If you have a project or website in mind for me, please contact the email below with a brief description.
-            <br><br>
-           <strong>Question/Comments</strong>: Please contact admin@dash-intel.com or alex@cravejs.com
-            </p>
-            <p>
-            <span>Copyright 2019</span> Dash-intel.com | <a href="termsandconditions.php" target = "_blank">Terms</a> | All rights reserved.
-            </p>
-        
-        </div>
+     <?php include "footer_blurb.php"; ?>
   </div>
   <?php include "js.php"; ?>
   

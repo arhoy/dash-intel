@@ -7,7 +7,7 @@
 <meta name="description" content= "Closure is when an inner function has access to the variables and parameters of it's parent function, even after the parent function has returned.">
    
    
-<?php include "includes/header.php"; ?>
+
 <?php include "../includes/header/header.php"; ?>
 
 <?php include "../includes/css/css_historical.php"; ?>
@@ -107,5 +107,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <!-- Ads will go here or link to other pages -->
+   <?php include "../includes/navigation/right_nav.php"; ?>
    <?php include "../includes/footer/footer.php"; ?>
    <?php include "../includes/footer/css.php"; ?>

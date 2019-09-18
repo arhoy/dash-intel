@@ -55,14 +55,18 @@
                   <li>The Web</li>
               </ul>
 
-         
+           
 
          </div>   <!-- end of row -->
             
          <?php include "../includes/footer/footer.php"; ?>
          <?php include "../includes/footer/css.php"; ?>  
+         </div>
+            <!-- Ads will go here or link to other pages (right column nav) -->
+         <?php include "../includes/navigation/right_nav.php"; ?>
+
+    
 
      
-</div>   
 
-<?php include "../includes/navigation/right_nav.php"; ?>
+

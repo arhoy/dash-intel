@@ -80,5 +80,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        </div>   
 
 
-        <!-- Ads will go here or link to other pages -->
+          <!-- Ads will go here or link to other pages (right column nav) -->
+         <?php include "../includes/navigation/right_nav.php"; ?>
 

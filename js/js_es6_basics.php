@@ -22,7 +22,7 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<?php include "../includes/header/headermenu.php"; ?>
+<?php include "../includes/header/headmenu.php"; ?>
  
 
 <div class = "container-fluid custom_body_main">
@@ -360,5 +360,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         <!-- Ads will go here or link to other pages -->
+   <?php include "../includes/navigation/right_nav.php"; ?>
    <?php include "../includes/footer/footer.php"; ?>
    <?php include "../includes/footer/css.php"; ?>
