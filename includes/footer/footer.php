@@ -1,8 +1,6 @@
 
 
 
-
-
 <footer class ="container">
 
     <hr>

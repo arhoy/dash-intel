@@ -54,11 +54,15 @@
                   <li>Salesforce, SharePoint, SQL Server</li>
                   <li>The Web</li>
               </ul>
-              
-         </div>
 
-                  <!-- Ads will go here or link to other pages -->
+         
+
+         </div>   <!-- end of row -->
+            
          <?php include "../includes/footer/footer.php"; ?>
          <?php include "../includes/footer/css.php"; ?>  
-       </div>   
 
+     
+</div>   
+
+<?php include "../includes/navigation/right_nav.php"; ?>
