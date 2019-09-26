@@ -27,12 +27,11 @@
             }
 
 
-        .animate__link{
-            transition: all .5s;
+        .mainpage__link {
+            font-weight:500;
         }
-
         .mainpage__link:hover{
-            font-weight:100;
+            font-weight:bold;
             cursor: pointer;
             
             

@@ -38,13 +38,11 @@
    <br>
    <div class="col-sm-3">
 
-        <h5>Sample Web Pages</h5>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://dash-intel-demos-001.netlify.com/" target = "_blank">Your Portfolio</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://dash-intel-demo-002.netlify.com/" target = "_blank">Canadian Landmarks</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://butchbarber.netlify.com/" target = "_blank">Butch Barber</a></li>
+        <h5>Select Web Pages</h5>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://www.cravejs.com/" target = "_blank">Crave JS</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://pointgreengardening.com/" target = "_blank">Point Green Gardening</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://seekjs.com/" target = "_blank">Realtors Inc</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://butchbarber.netlify.com/" target = "_blank">Barber Shop</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="http://pointgreengardening.com/" target = "_blank">Gardening Service</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="https://daryadesign.com" target = "_blank">Fashion Store</a></li>
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-orange animate__link" href="portfolio"> View More Examples</a></li>
    </div>
         
@@ -57,9 +55,9 @@
         <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://dash-intel.com/blog" target = "_blank">My Blog</a></li>
         <br><br>
         <h5>External Resources <em>4</em> Developers</h5>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://css-tricks.com" target = "_blank">CSS Tricks</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://developer.mozilla.org/en-US/" target = "_blank">Mozilla</a></li>
-        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-red animate__link" href="https://www.cravejs.com/articles" target = "_blank">CraveJs</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="https://css-tricks.com" target = "_blank">CSS Tricks</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="https://developer.mozilla.org/en-US/" target = "_blank">MDN</a></li>
+        <li class = "mainpage__item"><a class= "mainpage__link mainpage__link-blue animate__link" href="https://www.cravejs.com/articles" target = "_blank">Crave JS</a></li>
    </div>
  </div>
   <div class="row">

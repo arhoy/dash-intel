@@ -3,7 +3,7 @@
    
      
    <style type = "text/css">
-
+     
         a:hover {
             color: #3d547b;
         }
@@ -56,6 +56,9 @@
          a{
             color: darkblue;
             font-size: 18px;
+        }
+        a:hover {
+            text-decoration:none;
         }
 
         
@@ -110,11 +113,18 @@
             list-style-type: none;
             margin-bottom:5px;
             color: #3d547b;
-            font-family: 'Roboto', sans-serif;
+        }
+        li:hover {
+            text-decoration:none;
+            font-weight:bold;
         }
         
         li.list_icon{
            list-style-type:disc; 
+        }
+
+        h5:hover {
+            color: #3d547b;
         }
          
         .custom_navbar {
@@ -199,17 +209,16 @@
             margin-left:-35px;
     
         }
-        .panel-title a{
+       .panel-title {
             color:#3d547b;
-        }
-         .panel-title a:link{
+       }
+        .panel-title a,  .panel-title a:link, .panel-title a:visited {
             color:#3d547b;
-        }
-         .panel-title a:visited{
-            color:#3d547b;
+            text-decoration:none;
         }
          .panel-title a:hover{
-            color:rebeccapurple;
+            font-weight:bold;
+            text-decoration:none;
         }
         .position__fixed{
             position: sticky;
