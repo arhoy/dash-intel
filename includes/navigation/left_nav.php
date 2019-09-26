@@ -1,6 +1,6 @@
 
 
-<div class = "col-lg-2" id = "leftCol"> 
+<div class = "col-lg-2 col-sm-12" id = "leftCol"> 
  <div class = "custom_more_margin">
     <div class="panel-group">
      <div class="panel panel-default">

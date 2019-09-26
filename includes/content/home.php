@@ -4,8 +4,8 @@
    <!--section for cards-->
     <div class="row">
 
-         <div class="col-md-6 home_card_div">
-          <div class="card  mb-15">
+         <div class="col-md-6 col-sm-12 home_card_div">
+          <div class="card mb-15">
              <div class="card-block mb-15">
                <h1 class="card-title">Power BI</h1>
                <h2 class="card-text">Build Interactive Visualizations and Dashboards.</h2>
@@ -19,7 +19,7 @@
            </div>
          </div>
 
-           <div class="col-md-6 home_card_div">
+           <div class="col-md-6 col-sm-12 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
                <h1 class="card-title">Tableau</h1>
@@ -34,7 +34,7 @@
            </div>
          </div>
 
-          <div class="col-md-6 home_card_div">
+          <div class="col-md-6 col-sm-12 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
              <h1 class="card-title">Javascript</h1>
@@ -49,7 +49,7 @@
            </div>
          </div>
 
-           <div class="col-md-6 home_card_div">
+           <div class="col-md-6 col-sm-12 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
              <h1 class="card-title">Web Development</h1>
@@ -65,7 +65,7 @@
          </div>
 
          
-         <div class="col-md-6 home_card_div">
+         <div class="col-md-6 col-sm-12 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
              <h1 class="card-title">Wordpress Demos</h1>
@@ -80,7 +80,7 @@
            </div>
          </div>
 
-         <div class="col-md-6 home_card_div">
+         <div class="col-md-6 col-sm-12 home_card_div">
           <div class="card mb-15">
              <div class="card-block mb-15">
              <h1 class="card-title">Developer Articles</h1>

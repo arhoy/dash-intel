@@ -498,9 +498,23 @@
     background-color:transparent !important;
     border: none !important;
 }
+.gsc-input-box {
+    padding-top: 6px;
+    padding-bottom: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .gsc-control-cse, .gsc-control-cse-en{
+        max-width:220px;
+        border-radius: 10px;
+    }
+}
 .cse, .gsc-search-button-v2, .gsc-search-button-v2{
     display:none !important;
 }
+
 
 </style>
     
