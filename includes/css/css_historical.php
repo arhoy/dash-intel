@@ -51,6 +51,7 @@
             margin: 0;
             padding:0;
             background-color:#F5F5F5;
+            overflow-x:hidden;
         }
         
          a{
@@ -70,13 +71,16 @@
         
         #logo{
             color: white;
-            font-size: 19px;
+            font-size: 1.4rem;
             font-weight: bold;
-            width: 20%;
             height: 100%;
             letter-spacing: 6px;
             transform: translate(0px, -4px);
             transition: .4s all ease-in;
+            margin-right: 0 auto;
+        }
+        .logo-container {
+            width:24rem;
         }
         #logo:hover {
             text-decoration: none;
@@ -126,12 +130,16 @@
         h5:hover {
             color: #3d547b;
         }
-         
+    
         .custom_navbar {
-            background:linear-gradient( to right bottom, rgb(61, 84, 123),rgba(61, 84, 123,0.8));
-            border-radius: 2px solid black;
-            table-layout: fixed;
-            height:100%
+            background:linear-gradient( to right bottom, rgb(61, 84, 123),rgba(61, 84, 123,0.9));
+            display:flex;
+            justify-content: space-between;
+         
+        }
+        .navbar__headmenu{
+         
+           
         }
         .custom_more_margin {
             margin-top: 30px;
@@ -467,6 +475,7 @@
         
         #logo{
             width:100%;
+            font-size: 1.7rem;
             
         }  
    
