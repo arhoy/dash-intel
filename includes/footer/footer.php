@@ -45,7 +45,7 @@
                     View More Examples</a></li>
             <br><br>
             <h5>Powered By Gatsby </h5>
-            <li class="mainpage__item"><a class="mainpage__link mainpage__link-orange animate__link" href="https://backroads-gatsby-site-100.netlify.com/" target="_blank">Backroads</a></li>
+            <li class="mainpage__item"><a class="mainpage__link mainpage__link-orange animate__link" href="https://ventura-gatsby-site-101.netlify.com" target="_blank">Ventura</a></li>
         </div>
 
 
