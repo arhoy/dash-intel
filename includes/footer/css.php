@@ -49,6 +49,14 @@
         .mainpage__link-purple:visited,
         .mainpage__link-purple:active,
         .mainpage__link-purple:focus {
+            color:rgb(215, 3, 252)
+        }
+
+        .mainpage__link-lightblue,
+        .mainpage__link-lightblue:hover,
+        .mainpage__link-lightblue:visited,
+        .mainpage__link-lightblue:active,
+        .mainpage__link-lightblue:focus {
             color:rgb(49, 176, 213)
         }
 

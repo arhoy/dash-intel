@@ -21,11 +21,11 @@
         <br>
         <div class="col-sm-3">
             <h5>Javascript</h5>
-            <li class="mainpage__item"><a class="mainpage__link mainpage__link-purple animate__link" href="../js/"> What
+            <li class="mainpage__item"><a class="mainpage__link mainpage__link-lightblue animate__link" href="../js/"> What
                     is javascript</a></li>
-            <li class="mainpage__item"><a class="mainpage__link mainpage__link-purple animate__link" href="../js/js_intro.php">Intro to javascript</a></li>
-            <li class="mainpage__item"><a class="mainpage__link mainpage__link-purple animate__link" href="../js/js_es6_basics.php">Intro to ES6 javascript</a></li>
-            <br><br>
+            <li class="mainpage__item"><a class="mainpage__link mainpage__link-lightblue animate__link" href="../js/js_intro.php">Intro to javascript</a></li>
+            <li class="mainpage__item"><a class="mainpage__link mainpage__link-lightblue animate__link" href="../js/js_es6_basics.php">Intro to ES6 javascript</a></li>
+            <br>
             <h5>WordPress</h5>
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-red animate__link" href="https://demos.dash-intel.com/meccon-wordpress-demo/" target="_blank">Meccon Ecommerce</a></li>
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-red animate__link" href="https://dash-intel.com/demos/la-boom-food-restaurant-bistro-wordpress-theme/" target="_blank">Go Bistro</a></li>
@@ -43,9 +43,9 @@
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-orange animate__link" href="https://daryadesign.com" target="_blank">Fashion Store</a></li>
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-orange animate__link" href="portfolio">
                     View More Examples</a></li>
-            <br><br>
+            <br>
             <h5>Powered By Gatsby </h5>
-            <li class="mainpage__item"><a class="mainpage__link mainpage__link-orange animate__link" href="https://ventura-gatsby-site-101.netlify.com" target="_blank">Ventura</a></li>
+            <li class="mainpage__item"><a class="mainpage__link mainpage__link-purple animate__link" href="https://ventura-gatsby-site-101.netlify.com" target="_blank">Ventura</a></li>
         </div>
 
 
@@ -55,7 +55,7 @@
 
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-red animate__link" href="https://www.cravejs.com/articles" target="_blank">Crave JS Articles</a></li>
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-red animate__link" href="https://dash-intel.com/blog" target="_blank">My Blog</a></li>
-            <br><br>
+            <br>
             <h5>External Resources <em>4</em> Developers</h5>
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-blue animate__link" href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
             <li class="mainpage__item"><a class="mainpage__link mainpage__link-blue animate__link" href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a></li>
