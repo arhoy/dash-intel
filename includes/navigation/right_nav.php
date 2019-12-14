@@ -16,6 +16,16 @@
         contact: <i>admin@dash-intel.com</i>
         </div>
     </div>
+    <div>
+    
+    <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=15&p=12&l=ur1&category=amazonhomepage&f=ifr&linkID=dfab5d50f7ceb47e4ea3eba9180d0d7d&t=fashionfive-20&tracking_id=fashionfive-20" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+    </div>
+
+
+    <div>
+    <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=15&p=21&l=ur1&category=gift_certificates&banner=188QH8X0M4P79JQ2C182&f=ifr&linkID=3f21702b5e28b35170b79982946dde46&t=fashionfive-20&tracking_id=fashionfive-20" width="125" height="125" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+    </div>
+
 
     <!-- Adsterra Code 1 -->
     <div class="custom_more_margin">
